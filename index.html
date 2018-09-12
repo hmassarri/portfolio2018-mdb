@@ -1,45 +1,113 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Material Design Bootstrap</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/overrides.css" />
+    
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
-    <link href="css/mdb.min.css" rel="stylesheet">
-    <!-- Your custom styles (optional) -->
-    <link href="css/style.css" rel="stylesheet">
-  </head>
 
-  <body>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
 
-      <!-- Start your project here-->
-      <div style="height: 100vh">
-          <div class="flex-center flex-column">
-              <h1 class="animated fadeIn mb-4">Material Design for Bootstrap</h1>
+<body class="fixed-sn white-skin">
 
-              <h5 class="animated fadeIn mb-3">Thank you for using our product. We're glad you're with us.</h5>
+    <!--Double Nav-->
+    <header>
+       
+        <!-- Sidenav -->
+        <div id="slide-out" class="side-nav fixed">
+            <ul class="custom-scrollbar">
+                <li>
+                    <div class="logo-wrapper waves-light">
+                        <a href="#"><img src="assets/logo.png" alt="" class="img-fluid flex-center"></a>
+                    </div>
+                </li>
 
-              <p class="animated fadeIn text-muted">MDB Team</p>
-          </div>
-      </div>
-      <!-- /Start your project here-->
+                <li>
+                    <p class="black-text flex-center my-1">HUGO MASSARRI</p>
+                </li>
+                <ul class="collapsible collapsible-accordion mt-3">
+                    <li><a href="#" class="collapsible-header waves-effect"><i class="fa fa-th pr-1"></i>UIX</a></li>
+                    <li>
+                        <a href="#" class="collapsible-header waves-effect arrow-r"><i class="fa fa-cog pr-1"></i>Process</a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li><a href="#" class="waves-effect">Sub-link-1</a></li>
+                                <li><a href="#" class="waves-effect">Sub-link-2</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#" class="collapsible-header waves-effect"><i class="fa fa-user pr-1"></i>Blog</a></li>
+                    <li><a href="#" class="collapsible-header waves-effect"><i class="fa fa-play-circle pr-1"></i>Discography</a></li>
+                    <li><a href="#" class="collapsible-header waves-effect"><i class="fa fa-paint-brush pr-1"></i>Art</a></li>
+                    <li><a href="#" class="collapsible-header waves-effect"><i class="fa fa-file-text pr-1"></i>Resume</a></li>
+                    <li><a href="#" class="collapsible-header waves-effect"><i class="fa fa-envelope pr-1"></i>Contact</a></li>
+                </ul>
+            </ul>
+            <div class="mask-strong"></div>
+        </div>
+        
+        <!-- Navbar -->
+        <nav class="navbar fixed-top navbar-toggleable-md navbar-expand-lg scrolling-navbar double-nav">
+            <!-- Slideout button -->
+            <div class="float-left">
+                <a href="#" data-activates="slide-out" class="button-collapse"><i class="fa fa-bars"></i></a>
+            </div>
+            
+            <!-- Breadcrumb -->
+            <div class="breadcrumb-dn mr-auto">
+                <p>Breadcrumb / Somewhere / Here </p>
+            </div>
+            <ul class="nav navbar-nav nav-flex-icons ml-auto">
+                <li class="nav-item">
+                    <a href="" class="nav-link"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link"><i class="fa fa-apple"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link"><i class="fa fa-github"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link"><i class="fa fa-bandcamp" aria-hidden="true"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link"><i class="fa fa-soundcloud"></i></a>
+                </li>
+            </ul>
+        </nav>
+        
+    </header>
+        
+        
+    
+    <!-- Main Content -->
+    <main>
+        <div class="container-fluid mt-5">
+            <h2>Advanced Double Navigation with fixed SideNav & fixed Navbar:</h2>
+            <br>
+            <h5>1. Fixed side menu, hidden on small devices.</h5>
+            <h5>2. Fixed Navbar. It will always stay visible on the top, even when you scroll down.</h5>
+            <div style="height: 2000px"></div>
+        </div>
+    </main>
 
-    <!-- SCRIPTS -->
-    <!-- JQuery -->
-    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="js/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/mdb.min.js"></script>
+        <script src="js/scripts.js"></script>
 </body>
 
 </html>

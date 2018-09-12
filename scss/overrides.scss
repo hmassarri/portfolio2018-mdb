@@ -1,0 +1,25 @@
+@import "formatting";
+@import "mobile";
+@import "tablet";
+
+
+
+/* Index 
+==============================
+1. Sidenav and Nav
+
+
+==============================*/
+
+
+/* =Sidenav and Nav
+==============================*/
+.side-nav .logo-wrapper, .side-nav .logo-wrapper a {
+    height: 120px;
+}
+.side-nav .logo-wrapper img {
+    padding: 30px 45px 20px 65px;
+}
+.side-nav a {
+    padding-left: 40px;    
+}
