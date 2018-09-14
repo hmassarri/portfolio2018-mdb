@@ -1,14 +1,31 @@
+// Colors
+$dark-grey: #102027;
+$medium-grey: #37474F;
+$light-grey: #62727B;
+
+$dark-cyan: #008BA3;
+$medium-cyan: #00BCD4;
+$light-cyan: #62EFFF;
+
+$dark-pink: #B4004E;
+$medium-pink: #EC407A;
+$light-pink: #FF77A9;
+
+$medium-body: #E1E2E1;
+$light-body: #F5F5F6;
+
+
 // Your custom skin
 $skins: () !default;
 $skins: map-merge((
-  "test": (
-    "skin-primary-color":      #fff,
-    "skin-navbar":             #fff,
+  "hm": (
+    "skin-primary-color":      #000,
+    "skin-navbar":             $light-pink,
     "skin-footer-color":       #fff,
-    "skin-accent":             #fff,
+    "skin-accent":             #FF77A9,
     "skin-flat":               #fff,
-    "skin-sidenav-item":       #fff,
-    "skin-sidenav-item-hover": #fff,
+    "skin-sidenav-item":       $medium-cyan,
+    "skin-sidenav-item-hover": #00BCD4,
     "skin-gradient-start":     #fff,
     "skin-gradient-end":       #fff,
     "skin-mask-slight":        #fff,

@@ -1,6 +1,5 @@
 /* =Color Palette
-====================*/
-
+==============================*/
 $primary: #90A4AE;
 $primary-light: #1e88e5;
 $primary-dark: #102027;
@@ -14,9 +13,46 @@ $black: #000000;
 
 $rembase: 14px;
 
-.process-content {
-	font-size: 1.142857143rem !important;
-}
+$dark-grey: #102027;
+$medium-grey: #37474F;
+$light-grey: #62727B;
+
+$dark-cyan: #008BA3;
+$medium-cyan: #00BCD4;
+$light-cyan: #62EFFF;
+
+$dark-pink: #B4004E;
+$medium-pink: #EC407A;
+$light-pink: #FF77A9;
+
+$medium-body: #E1E2E1;
+$light-body: #F5F5F6;
+
+
+/* =Color Classes
+==============================*/
+.dark-grey { background-color: $dark-grey; }
+.dark-grey-text { color: $dark-grey; }
+.medium-grey { background-color: $medium-grey; }
+.medium-grey-text { color: $medium-grey; }
+.light-grey { background-color: $light-grey; }
+.light-grey-text { color: $light-grey; }
+.dark-cyan { background-color: $dark-cyan; }
+.dark-cyan-text { color: $dark-cyan; }
+.medium-cyan { background-color: $medium-cyan; }
+.medium-cyan-text { color: $medium-cyan; }
+.light-cyan { background-color: $light-cyan; }
+.light-cyan-text { color: $light-cyan; }
+.dark-pink { background-color: $dark-pink; }
+.dark-pink-text { color: $dark-pink; }
+.medium-pink { background-color: $medium-pink; }
+.medium-pink-text { color: $medium-pink; }
+.light-pink { background-color: $light-pink; }
+.light-pink-text { color: $light-pink; }
+.medium-body { background-color: $medium-body; }
+.medium-body-text { color: $medium-body; }
+.light-body { background-color: $light-body; }
+.light-body-text { color: $light-body; }
 
 
 /* != Font Size $rembase = 14px
@@ -48,16 +84,18 @@ $rembase: 14px;
 .fs-85 { font-size: .85rem !important; }
 .fs-80 { font-size: .8rem !important; }
 
-
-
-/* =HTML
-====================*/
+.process-content {
+	font-size: 1.142857143rem !important;
+}
 
 
 /*=Margins and Padding
 ====================*/
 .mt-0 {
 	margin-top: 0px !important;
+}
+.mt-05 {
+    margin-top: .5rem !important;
 }
 .mt-1 {
 	margin-top: 1rem !important;
@@ -77,6 +115,9 @@ $rembase: 14px;
 .mb-0 {
 	margin-bottom: 0px !important;
 }
+.mb-05 {
+    margin-bottom: .5rem !important;
+}
 .mb-1 {
 	margin-bottom: 1rem !important;
 }
@@ -92,9 +133,13 @@ $rembase: 14px;
 .mb-5 {
 	margin-bottom: 5rem !important;
 }
-.mx-0 {
+.my-0 {
 	margin-top: 0px !important;
 	margin-bottom: 0px !important;
+}
+.my-05 {
+    margin-top: .5rem !important;
+    margin-bottom: .5rem !important;
 }
 .my-1 {
 	margin-top: 1rem !important;
@@ -119,6 +164,9 @@ $rembase: 14px;
 .ml-0 {
 	margin-left: 0px !important;
 }
+.ml-05 {
+    margin-left: .5rem !important;
+}
 .ml-1 {
 	margin-left: 1rem !important;
 }
@@ -136,6 +184,9 @@ $rembase: 14px;
 }
 .mr-0 {
 	margin-right: 0px !important;
+}
+.mr-05 {
+    margin-right: .5rem !important;
 }
 .mr-1 {
 	margin-right: 1rem !important;
@@ -155,6 +206,10 @@ $rembase: 14px;
 .mx-0 {
 	margin-left: 0px !important;
 	margin-right: 0px !important;
+}
+.mx-05 {
+    margin-left: .5rem !important;
+    margin-right: .5rem !important;
 }
 .mx-1 {
 	margin-left: 1rem !important;
@@ -179,6 +234,9 @@ $rembase: 14px;
 .pt-0 {
 	padding-top: 0px !important;
 }
+.pt-05 {
+    paddgin-top: .5rem !important;
+}
 .pt-1 {
 	padding-top: 1rem !important;
 }
@@ -196,6 +254,9 @@ $rembase: 14px;
 }
 .pb-0 {
 	padding-bottom: 0px !important;
+}
+.pb-05 {
+    padding-bottom: .5rem !important;
 }
 .pb-1 {
 	padding-bottom: 1rem !important;
@@ -216,23 +277,31 @@ $rembase: 14px;
 	padding-top: 0px !important;
 	padding-bottom: 0px !important;
 }
-.px-1 {
+.py-0 {
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+.py-05 {
+    padding-top: .5rem !important;
+	padding-bottom: .5rem !important;
+}
+.py-1 {
 	padding-top: 1rem !important;
 	padding-bottom: 1rem !important;
 }
-.px-2 {
+.py-2 {
 	padding-top: 2rem !important;
 	padding-bottom: 2rem !important;
 }
-.px-3 {
+.py-3 {
 	padding-top: 3rem !important;
 	padding-bottom: 3rem !important;
 }
-.px-4 {
+.py-4 {
 	padding-top: 4rem !important;
 	padding-bottom: 4rem !important;
 }
-.px-5 {
+.py-5 {
 	padding-top: 5rem !important;
 	padding-bottom: 5rem !important;
 }
@@ -272,27 +341,31 @@ $rembase: 14px;
 .pr-5 {
 	padding-right: 5rem !important;
 }
-.py-0 {
-	padding-top: 0px !important;
-	padding-bottom: 0px !important;
+.px-0 {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
 }
-.py-1 {
+.px-05 {
+    padding-top: .5rem !important;
+    padding-bottom: .5rem !important;
+}
+.px-1 {
 	padding-top: 1rem !important;
 	padding-bottom: 1rem !important;
 }
-.py-2 {
+.px-2 {
 	padding-top: 2rem !important;
 	padding-bottom: 2rem !important;
 }
-.py-3 {
+.px-3 {
 	padding-top: 3rem !important;
 	padding-bottom: 3rem !important;
 }
-.py-4 {
+.px-4 {
 	padding-top: 4rem !important;
 	padding-bottom: 4rem !important;
 }
-.py-5 {
+.px-5 {
 	padding-top: 5rem !important;
 	padding-bottom: 5rem !important;
 }

@@ -1,7 +1,72 @@
 /* =Color Palette
-====================*/
-.process-content {
-  font-size: 1.142857143rem !important; }
+==============================*/
+/* =Color Classes
+==============================*/
+.dark-grey {
+  background-color: #102027; }
+
+.dark-grey-text {
+  color: #102027; }
+
+.medium-grey {
+  background-color: #37474F; }
+
+.medium-grey-text {
+  color: #37474F; }
+
+.light-grey {
+  background-color: #62727B; }
+
+.light-grey-text {
+  color: #62727B; }
+
+.dark-cyan {
+  background-color: #008BA3; }
+
+.dark-cyan-text {
+  color: #008BA3; }
+
+.medium-cyan {
+  background-color: #00BCD4; }
+
+.medium-cyan-text {
+  color: #00BCD4; }
+
+.light-cyan {
+  background-color: #62EFFF; }
+
+.light-cyan-text {
+  color: #62EFFF; }
+
+.dark-pink {
+  background-color: #B4004E; }
+
+.dark-pink-text {
+  color: #B4004E; }
+
+.medium-pink {
+  background-color: #EC407A; }
+
+.medium-pink-text {
+  color: #EC407A; }
+
+.light-pink {
+  background-color: #FF77A9; }
+
+.light-pink-text {
+  color: #FF77A9; }
+
+.medium-body {
+  background-color: #E1E2E1; }
+
+.medium-body-text {
+  color: #E1E2E1; }
+
+.light-body {
+  background-color: #F5F5F6; }
+
+.light-body-text {
+  color: #F5F5F6; }
 
 /* != Font Size $rembase = 14px
 --------------------------------------------------------------
@@ -38,12 +103,16 @@
 .fs-80 {
   font-size: .8rem !important; }
 
-/* =HTML
-====================*/
+.process-content {
+  font-size: 1.142857143rem !important; }
+
 /*=Margins and Padding
 ====================*/
 .mt-0 {
   margin-top: 0px !important; }
+
+.mt-05 {
+  margin-top: .5rem !important; }
 
 .mt-1 {
   margin-top: 1rem !important; }
@@ -63,6 +132,9 @@
 .mb-0 {
   margin-bottom: 0px !important; }
 
+.mb-05 {
+  margin-bottom: .5rem !important; }
+
 .mb-1 {
   margin-bottom: 1rem !important; }
 
@@ -78,9 +150,13 @@
 .mb-5 {
   margin-bottom: 5rem !important; }
 
-.mx-0 {
+.my-0 {
   margin-top: 0px !important;
   margin-bottom: 0px !important; }
+
+.my-05 {
+  margin-top: .5rem !important;
+  margin-bottom: .5rem !important; }
 
 .my-1 {
   margin-top: 1rem !important;
@@ -105,6 +181,9 @@
 .ml-0 {
   margin-left: 0px !important; }
 
+.ml-05 {
+  margin-left: .5rem !important; }
+
 .ml-1 {
   margin-left: 1rem !important; }
 
@@ -122,6 +201,9 @@
 
 .mr-0 {
   margin-right: 0px !important; }
+
+.mr-05 {
+  margin-right: .5rem !important; }
 
 .mr-1 {
   margin-right: 1rem !important; }
@@ -141,6 +223,10 @@
 .mx-0 {
   margin-left: 0px !important;
   margin-right: 0px !important; }
+
+.mx-05 {
+  margin-left: .5rem !important;
+  margin-right: .5rem !important; }
 
 .mx-1 {
   margin-left: 1rem !important;
@@ -165,6 +251,9 @@
 .pt-0 {
   padding-top: 0px !important; }
 
+.pt-05 {
+  paddgin-top: .5rem !important; }
+
 .pt-1 {
   padding-top: 1rem !important; }
 
@@ -182,6 +271,9 @@
 
 .pb-0 {
   padding-bottom: 0px !important; }
+
+.pb-05 {
+  padding-bottom: .5rem !important; }
 
 .pb-1 {
   padding-bottom: 1rem !important; }
@@ -202,23 +294,31 @@
   padding-top: 0px !important;
   padding-bottom: 0px !important; }
 
-.px-1 {
+.py-0 {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important; }
+
+.py-05 {
+  padding-top: .5rem !important;
+  padding-bottom: .5rem !important; }
+
+.py-1 {
   padding-top: 1rem !important;
   padding-bottom: 1rem !important; }
 
-.px-2 {
+.py-2 {
   padding-top: 2rem !important;
   padding-bottom: 2rem !important; }
 
-.px-3 {
+.py-3 {
   padding-top: 3rem !important;
   padding-bottom: 3rem !important; }
 
-.px-4 {
+.py-4 {
   padding-top: 4rem !important;
   padding-bottom: 4rem !important; }
 
-.px-5 {
+.py-5 {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important; }
 
@@ -258,29 +358,78 @@
 .pr-5 {
   padding-right: 5rem !important; }
 
-.py-0 {
+.px-0 {
   padding-top: 0px !important;
   padding-bottom: 0px !important; }
 
-.py-1 {
+.px-05 {
+  padding-top: .5rem !important;
+  padding-bottom: .5rem !important; }
+
+.px-1 {
   padding-top: 1rem !important;
   padding-bottom: 1rem !important; }
 
-.py-2 {
+.px-2 {
   padding-top: 2rem !important;
   padding-bottom: 2rem !important; }
 
-.py-3 {
+.px-3 {
   padding-top: 3rem !important;
   padding-bottom: 3rem !important; }
 
-.py-4 {
+.px-4 {
   padding-top: 4rem !important;
   padding-bottom: 4rem !important; }
 
-.py-5 {
+.px-5 {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important; }
+
+.delay-50ms {
+  animation-delay: .5s; }
+
+.delay-55ms {
+  animation-delay: .55s; }
+
+.delay-60ms {
+  animation-delay: .6s; }
+
+.delay-65ms {
+  animation-delay: .65s; }
+
+.delay-70ms {
+  animation-delay: .7s; }
+
+.delay-75ms {
+  animation-delay: .75s; }
+
+.delay-1-25s {
+  animation-delay: 1.25s; }
+
+.delay-1-5s {
+  animation-delay: 1.5s; }
+
+.delay-1-75s {
+  animation-delay: 1.75s; }
+
+.delay-2-25s {
+  animation-delay: 2.25s; }
+
+.delay-2-5s {
+  animation-delay: 2.5s; }
+
+.delay-2-75s {
+  animation-delay: 2.75s; }
+
+.delay-3-25s {
+  animation-delay: 3.25s; }
+
+.delay-3-5s {
+  animation-delay: 3.5s; }
+
+.delay-3-75s {
+  animation-delay: 3.75s; }
 
 /* Index 
 ==============================
@@ -297,6 +446,18 @@
   padding: 30px 45px 20px 65px; }
 
 .side-nav a {
-  padding-left: 40px; }
+  padding-left: 30px; }
+
+.side-nav .collapsible > li a.collapsible-header.active, .side-nav .collapsible > li a.collapsible-header:hover {
+  background-color: rgba(255, 119, 169, 0.75); }
+
+.side-nav .collapsible li a:hover {
+  background-color: rgba(255, 119, 169, 0.25); }
+
+.side-nav .collapsible-body a {
+  padding-left: 55px; }
+
+.side-nav .logo-wrapper {
+  border-bottom: 0px solid rgba(153, 153, 153, 0.3); }
 
 /*# sourceMappingURL=overrides.css.map */
