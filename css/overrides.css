@@ -91,6 +91,36 @@
 * 64px		4.57142857rem
 * 72px		5.142857143rem
 */
+.fs-200 {
+  font-size: 2rem !important; }
+
+.fs-109 {
+  font-size: 1.9rem !important; }
+
+.fs-108 {
+  font-size: 1.8rem !important; }
+
+.fs-107 {
+  font-size: 1.7rem !important; }
+
+.fs-106 {
+  font-size: 1.6rem !important; }
+
+.fs-105 {
+  font-size: 1.5rem !important; }
+
+.fs-104 {
+  font-size: 1.4rem !important; }
+
+.fs-103 {
+  font-size: 1.3rem !important; }
+
+.fs-102 {
+  font-size: 1.2rem !important; }
+
+.fs-101 {
+  font-size: 1.1rem !important; }
+
 .fs-95 {
   font-size: .95rem !important; }
 
@@ -468,7 +498,8 @@
   padding-left: 30px; }
 
 .side-nav .collapsible > li a.collapsible-header.active, .side-nav .collapsible > li a.collapsible-header:hover {
-  background-color: rgba(255, 119, 169, 0.95); }
+  background-color: rgba(255, 119, 169, 0.95);
+  color: #FFFFFF !important; }
 
 .side-nav .collapsible li a:hover {
   background-color: rgba(255, 119, 169, 0.5); }
@@ -478,5 +509,26 @@
 
 .side-nav .logo-wrapper {
   border-bottom: 0px solid rgba(153, 153, 153, 0.3); }
+
+#process-scrollspy {
+  margin-left: 150px; }
+
+#process-scrollspy .nav-item {
+  width: 100%; }
+
+#process-scrollspy a {
+  font-size: .8rem;
+  font-weight: 400;
+  line-height: 1.1rem;
+  padding: 0 5px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  color: black; }
+
+#process-scrollspy li .active {
+  font-weight: 600; }
+
+.scrollspy-process {
+  height: 500px; }
 
 /*# sourceMappingURL=overrides.css.map */
