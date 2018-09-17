@@ -431,6 +431,19 @@
 .delay-3-75s {
   animation-delay: 3.75s; }
 
+@media only screen and (max-width: 767px) {
+  .breadcrumb h1 {
+    margin-left: 0px !important;
+    margin-top: .2rem !important;
+    font-size: 1.4rem; }
+
+  #mental_model {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important; } }
+@media only screen and (max-width: 1024px) {
+  #mental_model {
+    margin-top: 1rem !important;
+    margin-bottom: 5rem; } }
 /* Index 
 ==============================
 1. Sidenav and Nav

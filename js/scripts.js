@@ -7,5 +7,4 @@ $(document).ready(function() {
     var sideNavScrollbar = document.querySelector('.custom-scrollbar');
     Ps.initialize(sideNavScrollbar);
     
-    //$('#processLinks a:hover').addClass('animated rubberBand');
 });
