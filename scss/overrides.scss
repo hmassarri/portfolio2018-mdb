@@ -15,6 +15,12 @@
 
 /* =Sidenav and Nav
 ==============================*/
+#slide-out a {
+	color: #000000;
+}
+#slide-out a:hover, #slide-out a:focus {
+	color: #FFFFFF;
+}
 .side-nav .logo-wrapper, .side-nav .logo-wrapper a {
     height: 120px;
 }
@@ -25,10 +31,10 @@
     padding-left: 30px;    
 }
 .side-nav .collapsible>li a.collapsible-header.active, .side-nav .collapsible>li a.collapsible-header:hover {
-    background-color: rgba(255,119,169,.75);
+    background-color: rgba(255,119,169,.95);
 }
 .side-nav .collapsible li a:hover {
-    background-color: rgba(255,119,169,.25)
+    background-color: rgba(255,119,169,.50)
 }
 .side-nav .collapsible-body a {
     padding-left: 55px;
