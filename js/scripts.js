@@ -13,4 +13,13 @@ $(document).ready(function() {
         stopper: ""
     });
     
+	$('.process-spacer-start').hide();
+	
+	$(window).scroll(function() {
+		if ( $(this).scrollTop() <= 0 ) {
+			//alert("true");
+			$('#startPosition').removeClass('active').addClass('active');
+		}
+	});
+
 });
