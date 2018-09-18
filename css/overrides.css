@@ -482,6 +482,9 @@
 ==============================*/
 /* =Sidenav and Nav
 ==============================*/
+nav a {
+  color: #000000 !important; }
+
 #slide-out a {
   color: #000000; }
 
@@ -510,13 +513,15 @@
 .side-nav .logo-wrapper {
   border-bottom: 0px solid rgba(153, 153, 153, 0.3); }
 
-#process-scrollspy {
+/* =Scrollspy
+==============================*/
+#myScrollspy {
   margin-left: 120px; }
 
-#process-scrollspy .nav-item {
+#myScrollspy .nav-item {
   width: 100%; }
 
-#process-scrollspy a {
+#myScrollspy a {
   font-size: .8rem;
   font-weight: 400;
   line-height: 1.1rem;
@@ -525,11 +530,11 @@
   margin-bottom: 3px;
   color: #5F5F5F; }
 
-#process-scrollspy li .active {
+#myScrollspy li .active {
   color: #000000;
   font-weight: 900; }
 
-.scrollspy-process {
+.scrollspy-list {
   height: 500px; }
 
 .process-spacer-start {
@@ -538,28 +543,8 @@
 .process-spacer {
   padding: 70px 0; }
 
-#discog-scrollspy {
-  margin-left: 120px; }
-
-#discog-scrollspy .nav-item {
-  width: 100%; }
-
-#discog-scrollspy a {
-  font-size: .8rem;
-  font-weight: 400;
-  line-height: 1.1rem;
-  padding: 0 5px;
-  margin-top: 3px;
-  margin-bottom: 3px;
-  color: #5F5F5F; }
-
-#discog-scrollspy li .active {
-  color: #000000;
-  font-weight: 900; }
-
-.scrollspy-discog {
-  height: 500px; }
-
+/* =Discography
+==============================*/
 .discog-button {
   background-color: #b0bec5;
   padding: 10px 30px;
