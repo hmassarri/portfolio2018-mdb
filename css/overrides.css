@@ -526,7 +526,8 @@
   color: black; }
 
 #process-scrollspy li .active {
-  font-weight: 600; }
+  color: #0288d1;
+  font-weight: 500; }
 
 .scrollspy-process {
   height: 500px; }
@@ -536,5 +537,42 @@
 
 .process-spacer {
   padding: 70px 0; }
+
+#discog-scrollspy {
+  margin-left: 80px; }
+
+#discog-scrollspy .nav-item {
+  width: 100%; }
+
+#discog-scrollspy a {
+  font-size: .8rem;
+  font-weight: 400;
+  line-height: 1.1rem;
+  padding: 0 5px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  color: black; }
+
+#discog-scrollspy li .active {
+  color: #0288d1;
+  font-weight: 500; }
+
+.scrollspy-discog {
+  height: 500px; }
+
+.process-spacer-start {
+  padding: 74px 0; }
+
+.process-spacer {
+  padding: 70px 0; }
+
+.discog-button {
+  background-color: #000000;
+  padding: 30px;
+  display: block;
+  width: 400px; }
+
+.discog-button:focus, .discog-button:hover {
+  background-color: #0288d1; }
 
 /*# sourceMappingURL=overrides.css.map */
