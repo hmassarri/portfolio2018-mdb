@@ -555,4 +555,13 @@ nav a {
 .discog-button:focus, .discog-button:hover {
   background-color: none; }
 
+/* =Blog
+==============================*/
+.blog a {
+  color: #424242; }
+
+.blog a:hover, .blog a:focus {
+  color: #EC407A;
+  text-decoration: underline; }
+
 /*# sourceMappingURL=overrides.css.map */

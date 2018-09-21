@@ -81,7 +81,6 @@ nav a {
 
 /* =Discography
 ==============================*/
-
 .discog-button {
 	background-color: #b0bec5;
 	padding: 10px 30px;
@@ -91,4 +90,14 @@ nav a {
 }
 .discog-button:focus, .discog-button:hover {
 	background-color: none;
+}
+
+/* =Blog
+==============================*/
+.blog a {
+    color: #424242;
+}
+.blog a:hover, .blog a:focus {
+    color: #EC407A;
+    text-decoration: underline;
 }
