@@ -3,7 +3,7 @@ $(document).ready(function() {
     //Sidenav
     $('.button-collapse').sideNav();
     
-    //Sidenav Scrollbar Init
+    // ScrollSpy Sidenav Scrollbar Init
     var sideNavScrollbar = document.querySelector('.custom-scrollbar');
     Ps.initialize(sideNavScrollbar);
     
@@ -13,7 +13,7 @@ $(document).ready(function() {
         stopper: ""
     });
     
-	$('.process-spacer-start').hide();
+    $('.process-spacer-start').hide();
 	
 	$(window).scroll(function() {
 		if ( $(this).scrollTop() <= 0 ) {
@@ -21,5 +21,6 @@ $(document).ready(function() {
 			$('#startPosition').removeClass('active').addClass('active');
 		}
 	});
+    
 
 });
