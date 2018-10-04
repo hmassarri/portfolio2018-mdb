@@ -564,4 +564,10 @@ nav a {
   color: #EC407A;
   text-decoration: underline; }
 
+/* =Process
+==============================*/
+.lb-data .lb-details {
+  width: 100%;
+  text-align: right !important; }
+
 /*# sourceMappingURL=overrides.css.map */
