@@ -11,8 +11,6 @@ $secondary-dark: #B4004E;
 $white: #FFFFFF;
 $black: #000000;
 
-$rembase: 14px;
-
 $dark-grey: #102027;
 $medium-grey: #37474F;
 $light-grey: #62727B;
@@ -25,34 +23,38 @@ $dark-pink: #B4004E;
 $medium-pink: #EC407A;
 $light-pink: #FF77A9;
 
-$medium-body: #E1E2E1;
-$light-body: #F5F5F6;
+$dark-body: rgba(255,255,255,.45);
+$medium-body: rgba(255,255,255,.65);
+$light-body: rgba(255,255,255,.85);
 
+$rembase: 14px;
 
 /* =Color Classes
 ==============================*/
-.dark-grey { background-color: $dark-grey; }
-.dark-grey-text { color: $dark-grey; }
-.medium-grey { background-color: $medium-grey; }
-.medium-grey-text { color: $medium-grey; }
-.light-grey { background-color: $light-grey; }
-.light-grey-text { color: $light-grey; }
-.dark-cyan { background-color: $dark-cyan; }
-.dark-cyan-text { color: $dark-cyan; }
-.medium-cyan { background-color: $medium-cyan; }
-.medium-cyan-text { color: $medium-cyan; }
-.light-cyan { background-color: $light-cyan; }
-.light-cyan-text { color: $light-cyan; }
-.dark-pink { background-color: $dark-pink; }
-.dark-pink-text { color: $dark-pink; }
-.medium-pink { background-color: $medium-pink; }
-.medium-pink-text { color: $medium-pink; }
-.light-pink { background-color: $light-pink; }
-.light-pink-text { color: $light-pink; }
-.medium-body { background-color: $medium-body; }
-.medium-body-text { color: $medium-body; }
-.light-body { background-color: $light-body; }
-.light-body-text { color: $light-body; }
+.dark-grey { background-color: $dark-grey !important; }
+.dark-grey-text { color: $dark-grey !important; }
+.medium-grey { background-color: $medium-grey !important; }
+.medium-grey-text { color: $medium-grey !important; }
+.light-grey { background-color: $light-grey !important; }
+.light-grey-text { color: $light-grey !important; }
+.dark-cyan { background-color: $dark-cyan !important; }
+.dark-cyan-text { color: $dark-cyan !important; }
+.medium-cyan { background-color: $medium-cyan !important; }
+.medium-cyan-text { color: $medium-cyan !important; }
+.light-cyan { background-color: $light-cyan !important; }
+.light-cyan-text { color: $light-cyan !important; }
+.dark-pink { background-color: $dark-pink !important; }
+.dark-pink-text { color: $dark-pink !important; }
+.medium-pink { background-color: $medium-pink !important; }
+.medium-pink-text { color: $medium-pink !important; }
+.light-pink { background-color: $light-pink !important; }
+.light-pink-text { color: $light-pink !important; }
+.dark-body { background-color: $dark-body !important; }
+.dark-body-text { color: $dark-body !important; }
+.medium-body { background-color: $medium-body !important; }
+.medium-body-text { color: $medium-body !important; }
+.light-body { background-color: $light-body !important; }
+.light-body-text { color: $light-body !important; }
 
 
 /* != Font Size $rembase = 14px

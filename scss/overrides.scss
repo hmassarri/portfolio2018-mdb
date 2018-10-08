@@ -7,11 +7,22 @@
 
 /* Index 
 ==============================
-1. Sidenav and Nav
+1. HTML, Body, etc
 
 
 ==============================*/
 
+
+
+/* =HTML, Body, etc
+==============================*/
+hr {
+    box-sizing: content-box;
+    height: 0;
+    margin-top: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(255,255,255,.1);
+}
 
 /* =Sidenav and Nav
 ==============================*/
@@ -19,10 +30,11 @@ nav a {
     color: #000000 !important;
 }
 #slide-out a {
-	color: #000000;
+	color: #FFFFFF;
 }
 #slide-out a:hover, #slide-out a:focus {
 	color: #FFFFFF;
+    font-weight: 300;
 }
 
 .side-nav .logo-wrapper, .side-nav .logo-wrapper a {
@@ -35,11 +47,13 @@ nav a {
     padding-left: 30px;    
 }
 .side-nav .collapsible>li a.collapsible-header.active, .side-nav .collapsible>li a.collapsible-header:hover {
-    background-color: $medium-pink;
-    color: #FFFFFF !important;
+    background-color: $medium-cyan;
+    color: #000000 !important;
 }
 .side-nav .collapsible li a:hover {
-    background-color: $light-pink
+    background-color: $medium-cyan;
+    color: #000000 !important;
+    font-weight: inherit;
 }
 .side-nav .collapsible-body a {
     padding-left: 55px;
@@ -66,7 +80,7 @@ nav a {
     color: #5F5F5F;
 }
 #myScrollspy li .active {
-	color: #000000;
+	color: $medium-cyan;
 	font-weight: 900;
 }
 .scrollspy-list {
@@ -78,7 +92,11 @@ nav a {
 .process-spacer {
 	padding: 70px 0;
 }
-
+#myScrollspy .nav-pills.default-pills .nav-item a.active {
+    border-left: .125rem solid $medium-cyan;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
 /* =Discography
 ==============================*/
 .discog-button {
@@ -95,7 +113,7 @@ nav a {
 /* =Blog
 ==============================*/
 .blog a {
-    color: #424242;
+    color: $dark-cyan;
 }
 .blog a:hover, .blog a:focus {
     color: #EC407A;
