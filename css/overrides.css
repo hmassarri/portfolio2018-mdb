@@ -3,70 +3,76 @@
 /* =Color Classes
 ==============================*/
 .dark-grey {
-  background-color: #102027; }
+  background-color: #102027 !important; }
 
 .dark-grey-text {
-  color: #102027; }
+  color: #102027 !important; }
 
 .medium-grey {
-  background-color: #37474F; }
+  background-color: #37474F !important; }
 
 .medium-grey-text {
-  color: #37474F; }
+  color: #37474F !important; }
 
 .light-grey {
-  background-color: #62727B; }
+  background-color: #62727B !important; }
 
 .light-grey-text {
-  color: #62727B; }
+  color: #62727B !important; }
 
 .dark-cyan {
-  background-color: #008BA3; }
+  background-color: #008BA3 !important; }
 
 .dark-cyan-text {
-  color: #008BA3; }
+  color: #008BA3 !important; }
 
 .medium-cyan {
-  background-color: #00BCD4; }
+  background-color: #00BCD4 !important; }
 
 .medium-cyan-text {
-  color: #00BCD4; }
+  color: #00BCD4 !important; }
 
 .light-cyan {
-  background-color: #62EFFF; }
+  background-color: #62EFFF !important; }
 
 .light-cyan-text {
-  color: #62EFFF; }
+  color: #62EFFF !important; }
 
 .dark-pink {
-  background-color: #B4004E; }
+  background-color: #B4004E !important; }
 
 .dark-pink-text {
-  color: #B4004E; }
+  color: #B4004E !important; }
 
 .medium-pink {
-  background-color: #EC407A; }
+  background-color: #EC407A !important; }
 
 .medium-pink-text {
-  color: #EC407A; }
+  color: #EC407A !important; }
 
 .light-pink {
-  background-color: #FF77A9; }
+  background-color: #FF77A9 !important; }
 
 .light-pink-text {
-  color: #FF77A9; }
+  color: #FF77A9 !important; }
+
+.dark-body {
+  background-color: rgba(255, 255, 255, 0.45) !important; }
+
+.dark-body-text {
+  color: rgba(255, 255, 255, 0.45) !important; }
 
 .medium-body {
-  background-color: #E1E2E1; }
+  background-color: rgba(255, 255, 255, 0.65) !important; }
 
 .medium-body-text {
-  color: #E1E2E1; }
+  color: rgba(255, 255, 255, 0.65) !important; }
 
 .light-body {
-  background-color: #F5F5F6; }
+  background-color: rgba(255, 255, 255, 0.85) !important; }
 
 .light-body-text {
-  color: #F5F5F6; }
+  color: rgba(255, 255, 255, 0.85) !important; }
 
 /* != Font Size $rembase = 14px
 --------------------------------------------------------------
@@ -476,20 +482,33 @@
     margin-bottom: 5rem; } }
 /* Index 
 ==============================
-1. Sidenav and Nav
+1. HTML, Body, etc
 
 
 ==============================*/
+/* =HTML, Body, etc
+==============================*/
+hr {
+  box-sizing: content-box;
+  height: 0;
+  margin-top: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1); }
+
 /* =Sidenav and Nav
 ==============================*/
 nav a {
   color: #000000 !important; }
 
 #slide-out a {
-  color: #000000; }
+  color: #FFFFFF; }
 
 #slide-out a:hover, #slide-out a:focus {
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  font-weight: 400; }
+
+#slide-out .collapsible-body {
+  background-color: #37474F; }
 
 .side-nav .logo-wrapper, .side-nav .logo-wrapper a {
   height: 120px; }
@@ -501,11 +520,14 @@ nav a {
   padding-left: 30px; }
 
 .side-nav .collapsible > li a.collapsible-header.active, .side-nav .collapsible > li a.collapsible-header:hover {
-  background-color: #EC407A;
-  color: #FFFFFF !important; }
+  background-color: #00BCD4;
+  color: #000000 !important;
+  font-weight: 400; }
 
 .side-nav .collapsible li a:hover {
-  background-color: #FF77A9; }
+  background-color: #00BCD4;
+  color: #000000 !important;
+  font-weight: inherit; }
 
 .side-nav .collapsible-body a {
   padding-left: 55px; }
@@ -523,7 +545,7 @@ nav a {
 
 #myScrollspy a {
   font-size: .8rem;
-  font-weight: 400;
+  font-weight: 900;
   line-height: 1.1rem;
   padding: 0 5px;
   margin-top: 3px;
@@ -531,8 +553,8 @@ nav a {
   color: #5F5F5F; }
 
 #myScrollspy li .active {
-  color: #000000;
-  font-weight: 900; }
+  color: #00BCD4;
+  font-weight: 500; }
 
 .scrollspy-list {
   height: 500px; }
@@ -543,22 +565,31 @@ nav a {
 .process-spacer {
   padding: 70px 0; }
 
+#myScrollspy .nav-pills.default-pills .nav-item a.active {
+  border-left: 0.125rem solid #00BCD4;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
 /* =Discography
 ==============================*/
 .discog-button {
-  background-color: #b0bec5;
+  background-color: #00BCD4;
   padding: 10px 30px;
   display: inline-block;
   width: auto;
-  border-radius: 4px; }
+  border-radius: 0px; }
 
 .discog-button:focus, .discog-button:hover {
-  background-color: none; }
+  color: #FFFFFF !important;
+  background-color: #EC407A; }
+
+.discog-button .hoverable {
+  transition: all 0s ease-in-out; }
 
 /* =Blog
 ==============================*/
 .blog a {
-  color: #424242; }
+  color: #008BA3; }
 
 .blog a:hover, .blog a:focus {
   color: #EC407A;

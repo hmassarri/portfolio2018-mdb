@@ -34,9 +34,11 @@ nav a {
 }
 #slide-out a:hover, #slide-out a:focus {
 	color: #FFFFFF;
-    font-weight: 300;
+    font-weight: 400;
 }
-
+#slide-out .collapsible-body {
+    background-color: $medium-grey;
+}
 .side-nav .logo-wrapper, .side-nav .logo-wrapper a {
     height: 120px;
 }
@@ -49,6 +51,7 @@ nav a {
 .side-nav .collapsible>li a.collapsible-header.active, .side-nav .collapsible>li a.collapsible-header:hover {
     background-color: $medium-cyan;
     color: #000000 !important;
+    font-weight: 400;
 }
 .side-nav .collapsible li a:hover {
     background-color: $medium-cyan;
@@ -72,7 +75,7 @@ nav a {
 }
 #myScrollspy a {
     font-size: .8rem;
-    font-weight: 400;
+    font-weight: 900;
     line-height: 1.1rem;
     padding: 0 5px;
     margin-top: 3px;
@@ -81,7 +84,7 @@ nav a {
 }
 #myScrollspy li .active {
 	color: $medium-cyan;
-	font-weight: 900;
+	font-weight: 500;
 }
 .scrollspy-list {
     height: 500px;
@@ -100,16 +103,19 @@ nav a {
 /* =Discography
 ==============================*/
 .discog-button {
-	background-color: #b0bec5;
+	background-color: $medium-cyan;
 	padding: 10px 30px;
 	display: inline-block;
 	width: auto;
-    border-radius: 4px;
+    border-radius: 0px;
 }
 .discog-button:focus, .discog-button:hover {
-	background-color: none;
+    color: $white !important;
+	background-color: $medium-pink;
 }
-
+.discog-button .hoverable {
+    transition: all 0s ease-in-out;
+}
 /* =Blog
 ==============================*/
 .blog a {
