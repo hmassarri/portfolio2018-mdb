@@ -21,7 +21,7 @@ hr {
     height: 0;
     margin-top: 1rem;
     border: 0;
-    border-top: 1px solid rgba(255,255,255,.1);
+    border-top: 1px solid rgba(0,0,0,.15);
 }
 
 /* =Sidenav and Nav
@@ -30,14 +30,14 @@ nav a {
     color: #000000 !important;
 }
 #slide-out a {
-	color: #FFFFFF;
+	color: $dark-grey;
 }
 #slide-out a:hover, #slide-out a:focus {
-	color: #FFFFFF;
-    font-weight: 400;
+	color: #000000;
+    font-weight: 300;
 }
 #slide-out .collapsible-body {
-    background-color: $medium-grey;
+    background-color: $light-body;
 }
 .side-nav .logo-wrapper, .side-nav .logo-wrapper a {
     height: 120px;
@@ -51,7 +51,7 @@ nav a {
 .side-nav .collapsible>li a.collapsible-header.active, .side-nav .collapsible>li a.collapsible-header:hover {
     background-color: $medium-cyan;
     color: #000000 !important;
-    font-weight: 400;
+    font-weight: 300;
 }
 .side-nav .collapsible li a:hover {
     background-color: $medium-cyan;
@@ -75,7 +75,7 @@ nav a {
 }
 #myScrollspy a {
     font-size: .8rem;
-    font-weight: 900;
+    font-weight: 500;
     line-height: 1.1rem;
     padding: 0 5px;
     margin-top: 3px;
@@ -83,8 +83,8 @@ nav a {
     color: #5F5F5F;
 }
 #myScrollspy li .active {
-	color: $medium-cyan;
-	font-weight: 500;
+	color: $dark-cyan;
+	font-weight: 900;
 }
 .scrollspy-list {
     height: 500px;
@@ -96,7 +96,7 @@ nav a {
 	padding: 70px 0;
 }
 #myScrollspy .nav-pills.default-pills .nav-item a.active {
-    border-left: .125rem solid $medium-cyan;
+    border-left: .125rem solid $dark-cyan;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
