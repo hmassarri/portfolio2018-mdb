@@ -501,11 +501,12 @@ nav a {
   color: #000000 !important; }
 
 #slide-out a {
-  color: #102027; }
+  color: #102027;
+  font-weight: 400; }
 
 #slide-out a:hover, #slide-out a:focus {
   color: #000000;
-  font-weight: 300; }
+  font-weight: 400; }
 
 #slide-out .collapsible-body {
   background-color: #F5F5F6; }
@@ -517,7 +518,8 @@ nav a {
   padding: 30px 45px 20px 65px; }
 
 .side-nav a {
-  padding-left: 30px; }
+  padding-left: 30px;
+  font-weight: 400; }
 
 .side-nav .collapsible > li a.collapsible-header.active, .side-nav .collapsible > li a.collapsible-header:hover {
   background-color: #00BCD4;
