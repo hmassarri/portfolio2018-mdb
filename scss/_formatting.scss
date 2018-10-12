@@ -1,60 +1,48 @@
 /* =Color Palette
 ==============================*/
-$primary: #90A4AE;
-$primary-light: #1e88e5;
-$primary-dark: #102027;
+$primary: #263238;
+$primary-light: #4F5B62;
+$primary-dark: #000A12;
 
-$secondary: #EC407A;
-$secondary-light: #FF77A9;
-$secondary-dark: #B4004E;
+$secondary: #00BCD4;
+$secondary-light: #62EEFF;
+$secondary-dark: #008BA3;
 
 $white: #FFFFFF;
 $black: #000000;
 
-$dark-grey: #102027;
-$medium-grey: #37474F;
-$light-grey: #62727B;
 
-$dark-cyan: #008BA3;
-$medium-cyan: #00BCD4;
-$light-cyan: #62EFFF;
+$tertiary: #9E9E9E;
+$tertiary-light: #EFEFEF;
+$tertiary-dark: #707070;
 
-$dark-pink: #B4004E;
-$medium-pink: #EC407A;
-$light-pink: #FF77A9;
-
-$dark-body: #232323;
-$medium-body: #E1E2E1;
-$light-body: #F5F5F6;
-
-$rembase: 14px;
 
 /* =Color Classes
 ==============================*/
-.dark-grey { background-color: $dark-grey !important; }
-.dark-grey-text { color: $dark-grey !important; }
-.medium-grey { background-color: $medium-grey !important; }
-.medium-grey-text { color: $medium-grey !important; }
-.light-grey { background-color: $light-grey !important; }
-.light-grey-text { color: $light-grey !important; }
-.dark-cyan { background-color: $dark-cyan !important; }
-.dark-cyan-text { color: $dark-cyan !important; }
-.medium-cyan { background-color: $medium-cyan !important; }
-.medium-cyan-text { color: $medium-cyan !important; }
-.light-cyan { background-color: $light-cyan !important; }
-.light-cyan-text { color: $light-cyan !important; }
-.dark-pink { background-color: $dark-pink !important; }
-.dark-pink-text { color: $dark-pink !important; }
-.medium-pink { background-color: $medium-pink !important; }
-.medium-pink-text { color: $medium-pink !important; }
-.light-pink { background-color: $light-pink !important; }
-.light-pink-text { color: $light-pink !important; }
-.dark-body { background-color: $dark-body !important; }
-.dark-body-text { color: $dark-body !important; }
-.medium-body { background-color: $medium-body !important; }
-.medium-body-text { color: $medium-body !important; }
-.light-body { background-color: $light-body !important; }
-.light-body-text { color: $light-body !important; }
+.primary { background-color: $primary !important; }
+.primary-text { color: $primary !important; }
+.primary-light { background-color: $primary-light !important; }
+.primary-light-text { color: $primary-light !important; }
+.primary-dark { background-color: $primary-dark !important; }
+.primary-dark-text { color: $primary-dark !important; }
+
+.secondary { background-color: $secondary !important; }
+.secondary-text { color: $secondary !important; }
+.secondary-light { background-color: $secondary-light !important; }
+.secondary-light-text { color: $secondary-light !important; }
+.secondary-dark { background-color: $secondary-dark !important; }
+.secondary-dark-text { color: $secondary-dark !important; }
+
+.tertiary { background-color: $tertiary !important; }
+.tertiary-text { color: $tertiary !important; }
+.tertiary-light { background-color: $tertiary-light !important; }
+.tertiary-light-text { color: $tertiary-light !important; }
+.tertiary-dark { background-color: $tertiary-dark !important; }
+.tertiary-dark-text { color: $tertiary-dark !important; }
+
+
+
+$rembase: 14px;
 
 
 /* != Font Size $rembase = 14px

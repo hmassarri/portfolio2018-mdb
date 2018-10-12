@@ -2,77 +2,59 @@
 ==============================*/
 /* =Color Classes
 ==============================*/
-.dark-grey {
-  background-color: #102027 !important; }
+.primary {
+  background-color: #263238 !important; }
 
-.dark-grey-text {
-  color: #102027 !important; }
+.primary-text {
+  color: #263238 !important; }
 
-.medium-grey {
-  background-color: #37474F !important; }
+.primary-light {
+  background-color: #4F5B62 !important; }
 
-.medium-grey-text {
-  color: #37474F !important; }
+.primary-light-text {
+  color: #4F5B62 !important; }
 
-.light-grey {
-  background-color: #62727B !important; }
+.primary-dark {
+  background-color: #000A12 !important; }
 
-.light-grey-text {
-  color: #62727B !important; }
+.primary-dark-text {
+  color: #000A12 !important; }
 
-.dark-cyan {
-  background-color: #008BA3 !important; }
-
-.dark-cyan-text {
-  color: #008BA3 !important; }
-
-.medium-cyan {
+.secondary {
   background-color: #00BCD4 !important; }
 
-.medium-cyan-text {
+.secondary-text {
   color: #00BCD4 !important; }
 
-.light-cyan {
-  background-color: #62EFFF !important; }
+.secondary-light {
+  background-color: #62EEFF !important; }
 
-.light-cyan-text {
-  color: #62EFFF !important; }
+.secondary-light-text {
+  color: #62EEFF !important; }
 
-.dark-pink {
-  background-color: #B4004E !important; }
+.secondary-dark {
+  background-color: #008BA3 !important; }
 
-.dark-pink-text {
-  color: #B4004E !important; }
+.secondary-dark-text {
+  color: #008BA3 !important; }
 
-.medium-pink {
-  background-color: #EC407A !important; }
+.tertiary {
+  background-color: #9E9E9E !important; }
 
-.medium-pink-text {
-  color: #EC407A !important; }
+.tertiary-text {
+  color: #9E9E9E !important; }
 
-.light-pink {
-  background-color: #FF77A9 !important; }
+.tertiary-light {
+  background-color: #EFEFEF !important; }
 
-.light-pink-text {
-  color: #FF77A9 !important; }
+.tertiary-light-text {
+  color: #EFEFEF !important; }
 
-.dark-body {
-  background-color: #232323 !important; }
+.tertiary-dark {
+  background-color: #707070 !important; }
 
-.dark-body-text {
-  color: #232323 !important; }
-
-.medium-body {
-  background-color: #E1E2E1 !important; }
-
-.medium-body-text {
-  color: #E1E2E1 !important; }
-
-.light-body {
-  background-color: #F5F5F6 !important; }
-
-.light-body-text {
-  color: #F5F5F6 !important; }
+.tertiary-dark-text {
+  color: #707070 !important; }
 
 /* != Font Size $rembase = 14px
 --------------------------------------------------------------
@@ -501,7 +483,7 @@ nav a {
   color: #000000 !important; }
 
 #slide-out a {
-  color: #102027;
+  color: #000A12;
   font-weight: 400; }
 
 #slide-out a:hover, #slide-out a:focus {
@@ -509,7 +491,7 @@ nav a {
   font-weight: 400; }
 
 #slide-out .collapsible-body {
-  background-color: #F5F5F6; }
+  background-color: #EFEFEF; }
 
 .side-nav .logo-wrapper, .side-nav .logo-wrapper a {
   height: 120px; }
@@ -552,10 +534,10 @@ nav a {
   padding: 0 5px;
   margin-top: 3px;
   margin-bottom: 3px;
-  color: #5F5F5F; }
+  color: #000A12; }
 
 #myScrollspy li .active {
-  color: #008BA3;
+  color: #00BCD4;
   font-weight: 900; }
 
 .scrollspy-list {
@@ -568,22 +550,21 @@ nav a {
   padding: 70px 0; }
 
 #myScrollspy .nav-pills.default-pills .nav-item a.active {
-  border-left: 0.125rem solid #008BA3;
+  border-left: 0.125rem solid #00BCD4;
   -webkit-box-shadow: none;
   box-shadow: none; }
 
 /* =Discography
 ==============================*/
 .discog-button {
-  background-color: #00BCD4;
+  background-color: #9E9E9E;
   padding: 10px 30px;
   display: inline-block;
   width: auto;
   border-radius: 0px; }
 
 .discog-button:focus, .discog-button:hover {
-  color: #FFFFFF !important;
-  background-color: #EC407A; }
+  background-color: #00BCD4; }
 
 .discog-button .hoverable {
   transition: all 0s ease-in-out; }
@@ -591,10 +572,10 @@ nav a {
 /* =Blog
 ==============================*/
 .blog a {
-  color: #008BA3; }
+  color: #00BCD4; }
 
 .blog a:hover, .blog a:focus {
-  color: #EC407A;
+  color: #008BA3;
   text-decoration: underline; }
 
 /* =Process
@@ -602,5 +583,23 @@ nav a {
 .lb-data .lb-details {
   width: 100%;
   text-align: right !important; }
+
+/* =Web
+==============================*/
+#web .card.card-image {
+  background-position: top !important; }
+
+.webproject-button {
+  background-color: #00BCD4;
+  padding: 10px 30px;
+  display: inline-block;
+  width: auto;
+  border-radius: 0px; }
+
+.webproject-button:focus, .webproject-button:hover {
+  background-color: #00BCD4; }
+
+.webproject-button .hoverable {
+  transition: all 0s ease-in-out; }
 
 /*# sourceMappingURL=overrides.css.map */

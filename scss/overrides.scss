@@ -30,7 +30,7 @@ nav a {
     color: #000000 !important;
 }
 #slide-out a {
-	color: $dark-grey;
+	color: $primary-dark;
     font-weight: 400;
 }
 #slide-out a:hover, #slide-out a:focus {
@@ -38,7 +38,7 @@ nav a {
     font-weight: 400;
 }
 #slide-out .collapsible-body {
-    background-color: $light-body;
+    background-color: $tertiary-light;
 }
 .side-nav .logo-wrapper, .side-nav .logo-wrapper a {
     height: 120px;
@@ -51,12 +51,12 @@ nav a {
     font-weight: 400;
 }
 .side-nav .collapsible>li a.collapsible-header.active, .side-nav .collapsible>li a.collapsible-header:hover {
-    background-color: $medium-cyan;
+    background-color: $secondary;
     color: #000000 !important;
     font-weight: 300;
 }
 .side-nav .collapsible li a:hover {
-    background-color: $medium-cyan;
+    background-color: $secondary;
     color: #000000 !important;
     font-weight: inherit;
 }
@@ -82,10 +82,10 @@ nav a {
     padding: 0 5px;
     margin-top: 3px;
     margin-bottom: 3px;
-    color: #5F5F5F;
+    color: $primary-dark;
 }
 #myScrollspy li .active {
-	color: $dark-cyan;
+	color: $secondary;
 	font-weight: 900;
 }
 .scrollspy-list {
@@ -98,22 +98,21 @@ nav a {
 	padding: 70px 0;
 }
 #myScrollspy .nav-pills.default-pills .nav-item a.active {
-    border-left: .125rem solid $dark-cyan;
+    border-left: .125rem solid $secondary;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
 /* =Discography
 ==============================*/
 .discog-button {
-	background-color: $medium-cyan;
+	background-color: $tertiary;
 	padding: 10px 30px;
 	display: inline-block;
 	width: auto;
     border-radius: 0px;
 }
 .discog-button:focus, .discog-button:hover {
-    color: $white !important;
-	background-color: $medium-pink;
+	background-color: $secondary;
 }
 .discog-button .hoverable {
     transition: all 0s ease-in-out;
@@ -121,10 +120,10 @@ nav a {
 /* =Blog
 ==============================*/
 .blog a {
-    color: $dark-cyan;
+    color: $secondary;
 }
 .blog a:hover, .blog a:focus {
-    color: #EC407A;
+    color: $secondary-dark;
     text-decoration: underline;
 }
 
@@ -133,4 +132,24 @@ nav a {
 .lb-data .lb-details {
     width: 100%;
     text-align: right !important;
+}
+
+
+/* =Web
+==============================*/
+#web .card.card-image {
+    background-position: top !important;
+}
+.webproject-button {
+	background-color: $secondary;
+	padding: 10px 30px;
+	display: inline-block;
+	width: auto;
+    border-radius: 0px;
+}
+.webproject-button:focus, .webproject-button:hover {
+	background-color: $secondary;
+}
+.webproject-button .hoverable {
+    transition: all 0s ease-in-out;
 }
