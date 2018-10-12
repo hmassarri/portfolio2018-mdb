@@ -470,6 +470,11 @@
 ==============================*/
 /* =HTML, Body, etc
 ==============================*/
+header,
+main,
+footer {
+  padding-left: 240px; }
+
 hr {
   box-sizing: content-box;
   height: 0;
@@ -484,34 +489,34 @@ nav a {
 
 #slide-out a {
   color: #000A12;
-  font-weight: 400; }
+  font-weight: 400 !important; }
 
-#slide-out a:hover, #slide-out a:focus {
+#slide-out a:hover,
+#slide-out a:focus {
   color: #000000;
+  font-weight: inherit; }
+
+#slide-out .collapsible-body a {
+  background-color: rgba(0, 0, 0, 0.08);
   font-weight: 400; }
 
-#slide-out .collapsible-body {
-  background-color: #EFEFEF; }
-
-.side-nav .logo-wrapper, .side-nav .logo-wrapper a {
+.side-nav .logo-wrapper,
+.side-nav .logo-wrapper a {
   height: 120px; }
 
 .side-nav .logo-wrapper img {
   padding: 30px 45px 20px 65px; }
 
-.side-nav a {
-  padding-left: 30px;
+#slide-out .collapsible > li a.collapsible-header.active,
+.side-nav .collapsible > li a.collapsible-header:hover {
+  background-color: #00BCD4;
+  color: #000000 !important;
   font-weight: 400; }
 
-.side-nav .collapsible > li a.collapsible-header.active, .side-nav .collapsible > li a.collapsible-header:hover {
+#slide-out .collapsible li a:hover {
   background-color: #00BCD4;
   color: #000000 !important;
-  font-weight: 300; }
-
-.side-nav .collapsible li a:hover {
-  background-color: #00BCD4;
-  color: #000000 !important;
-  font-weight: inherit; }
+  font-weight: 400; }
 
 .side-nav .collapsible-body a {
   padding-left: 55px; }
@@ -557,13 +562,14 @@ nav a {
 /* =Discography
 ==============================*/
 .discog-button {
-  background-color: #9E9E9E;
+  background-color: #00BCD4;
   padding: 10px 30px;
   display: inline-block;
   width: auto;
   border-radius: 0px; }
 
-.discog-button:focus, .discog-button:hover {
+.discog-button:focus,
+.discog-button:hover {
   background-color: #00BCD4; }
 
 .discog-button .hoverable {
@@ -574,7 +580,8 @@ nav a {
 .blog a {
   color: #00BCD4; }
 
-.blog a:hover, .blog a:focus {
+.blog a:hover,
+.blog a:focus {
   color: #008BA3;
   text-decoration: underline; }
 
@@ -596,7 +603,8 @@ nav a {
   width: auto;
   border-radius: 0px; }
 
-.webproject-button:focus, .webproject-button:hover {
+.webproject-button:focus,
+.webproject-button:hover {
   background-color: #00BCD4; }
 
 .webproject-button .hoverable {

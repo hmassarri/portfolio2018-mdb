@@ -3,8 +3,6 @@
 @import "mobile";
 @import "tablet";
 
-
-
 /* Index 
 ==============================
 1. HTML, Body, etc
@@ -13,62 +11,69 @@
 ==============================*/
 
 
-
 /* =HTML, Body, etc
 ==============================*/
+
+header,
+main,
+footer {
+    padding-left: 240px;
+}
 hr {
     box-sizing: content-box;
     height: 0;
     margin-top: 1rem;
     border: 0;
-    border-top: 1px solid rgba(0,0,0,.15);
+    border-top: 1px solid rgba(0, 0, 0, .15);
 }
 
 /* =Sidenav and Nav
 ==============================*/
+
 nav a {
-    color: #000000 !important;
+    color: $black !important;
 }
 #slide-out a {
-	color: $primary-dark;
+    color: $primary-dark;
+    font-weight: 400 !important;
+}
+#slide-out a:hover,
+#slide-out a:focus {
+    color: $black;
+    font-weight: inherit;
+}
+#slide-out .collapsible-body a {
+    background-color: rgba(0, 0, 0, .08);
     font-weight: 400;
 }
-#slide-out a:hover, #slide-out a:focus {
-	color: #000000;
-    font-weight: 400;
-}
-#slide-out .collapsible-body {
-    background-color: $tertiary-light;
-}
-.side-nav .logo-wrapper, .side-nav .logo-wrapper a {
+.side-nav .logo-wrapper,
+.side-nav .logo-wrapper a {
     height: 120px;
 }
 .side-nav .logo-wrapper img {
     padding: 30px 45px 20px 65px;
 }
-.side-nav a {
-    padding-left: 30px;    
+#slide-out .collapsible>li a.collapsible-header.active,
+.side-nav .collapsible>li a.collapsible-header:hover {
+    background-color: $secondary;
+    color: $black !important;
     font-weight: 400;
 }
-.side-nav .collapsible>li a.collapsible-header.active, .side-nav .collapsible>li a.collapsible-header:hover {
+#slide-out .collapsible li a:hover {
     background-color: $secondary;
-    color: #000000 !important;
-    font-weight: 300;
-}
-.side-nav .collapsible li a:hover {
-    background-color: $secondary;
-    color: #000000 !important;
-    font-weight: inherit;
+    color: $black !important;
+    font-weight: 400;
 }
 .side-nav .collapsible-body a {
     padding-left: 55px;
 }
 .side-nav .logo-wrapper {
-    border-bottom: 0px solid rgba(153,153,153,.3);
+    border-bottom: 0px solid rgba(153, 153, 153, .3);
 }
 
 /* =Scrollspy
 ==============================*/
+
 #myScrollspy {
     margin-left: 120px;
 }
@@ -85,70 +90,78 @@ nav a {
     color: $primary-dark;
 }
 #myScrollspy li .active {
-	color: $secondary;
-	font-weight: 900;
+    color: $secondary;
+    font-weight: 900;
 }
 .scrollspy-list {
     height: 500px;
 }
 .process-spacer-start {
-	padding: 74px 0;
+    padding: 74px 0;
 }
 .process-spacer {
-	padding: 70px 0;
+    padding: 70px 0;
 }
 #myScrollspy .nav-pills.default-pills .nav-item a.active {
     border-left: .125rem solid $secondary;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
+
 /* =Discography
 ==============================*/
+
 .discog-button {
-	background-color: $tertiary;
-	padding: 10px 30px;
-	display: inline-block;
-	width: auto;
+    background-color: $secondary;
+    padding: 10px 30px;
+    display: inline-block;
+    width: auto;
     border-radius: 0px;
 }
-.discog-button:focus, .discog-button:hover {
-	background-color: $secondary;
+.discog-button:focus,
+.discog-button:hover {
+    background-color: $secondary;
 }
 .discog-button .hoverable {
     transition: all 0s ease-in-out;
 }
+
 /* =Blog
 ==============================*/
+
 .blog a {
     color: $secondary;
 }
-.blog a:hover, .blog a:focus {
+.blog a:hover,
+.blog a:focus {
     color: $secondary-dark;
     text-decoration: underline;
 }
 
 /* =Process
 ==============================*/
+
 .lb-data .lb-details {
     width: 100%;
     text-align: right !important;
 }
 
-
 /* =Web
 ==============================*/
+
 #web .card.card-image {
     background-position: top !important;
 }
 .webproject-button {
-	background-color: $secondary;
-	padding: 10px 30px;
-	display: inline-block;
-	width: auto;
+    background-color: $secondary;
+    padding: 10px 30px;
+    display: inline-block;
+    width: auto;
     border-radius: 0px;
 }
-.webproject-button:focus, .webproject-button:hover {
-	background-color: $secondary;
+.webproject-button:focus,
+.webproject-button:hover {
+    background-color: $secondary;
 }
 .webproject-button .hoverable {
     transition: all 0s ease-in-out;
