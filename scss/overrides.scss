@@ -53,16 +53,20 @@ nav a {
 .side-nav .logo-wrapper img {
     padding: 30px 45px 20px 65px;
 }
-#slide-out .collapsible>li a.collapsible-header.active,
-.side-nav .collapsible>li a.collapsible-header:hover {
+#slide-out .collapsible>li a.collapsible-header.active {
     background-color: $secondary;
-    color: $black !important;
+    color: $white !important;
+}
+.side-nav .collapsible>li a.collapsible-header:hover {
+    background-color: $black;
+    color: $white !important;
     font-weight: 400;
 }
 #slide-out .collapsible li a:hover {
-    background-color: $secondary;
-    color: $black !important;
+    background-color: $black;
+    color: $white;
     font-weight: 400;
+    border-radius: 0;
 }
 .side-nav .collapsible-body a {
     padding-left: 55px;
@@ -112,7 +116,8 @@ nav a {
 ==============================*/
 
 .discog-button {
-    background-color: $secondary;
+    background-color: $primary-dark;
+    color: $white;
     padding: 10px 30px;
     display: inline-block;
     width: auto;
@@ -120,7 +125,8 @@ nav a {
 }
 .discog-button:focus,
 .discog-button:hover {
-    background-color: $secondary;
+    background-color: $cyan;
+    color: $black;
 }
 .discog-button .hoverable {
     transition: all 0s ease-in-out;
@@ -130,11 +136,11 @@ nav a {
 ==============================*/
 
 .blog a {
-    color: $secondary;
+    color: $black;
 }
 .blog a:hover,
 .blog a:focus {
-    color: $secondary-dark;
+    color: $cyan;
     text-decoration: underline;
 }
 
@@ -152,17 +158,36 @@ nav a {
 #web .card.card-image {
     background-position: top !important;
 }
-.webproject-button {
+.webproject-button-1 {
     background-color: $secondary;
+    color: $white;
     padding: 10px 30px;
     display: inline-block;
     width: auto;
     border-radius: 0px;
 }
-.webproject-button:focus,
-.webproject-button:hover {
-    background-color: $secondary;
+.webproject-button-1:focus,
+.webproject-button-1:hover {
+    background-color: $cyan;
+    color: $black;
 }
-.webproject-button .hoverable {
+.webproject-button-1 .hoverable {
+    transition: all 0s ease-in-out;
+}
+
+.webproject-button-2 {
+    background-color: $primary-dark;
+    color: $white;
+    padding: 10px 30px;
+    display: inline-block;
+    width: auto;
+    border-radius: 0px;
+}
+.webproject-button-2:focus,
+.webproject-button-2:hover {
+    background-color: $cyan;
+    color: $black;
+}
+.webproject-button-2 .hoverable {
     transition: all 0s ease-in-out;
 }
