@@ -483,9 +483,12 @@ hr {
 nav a {
   color: #000000 !important; }
 
+#slide-out {
+  font-wieight: 200; }
+
 #slide-out a {
   color: #000A12;
-  font-weight: 400 !important; }
+  font-weight: 300; }
 
 #slide-out a:hover,
 #slide-out a:focus {
@@ -510,12 +513,12 @@ nav a {
 .side-nav .collapsible > li a.collapsible-header:hover {
   background-color: #000000;
   color: #FFFFFF !important;
-  font-weight: 400; }
+  font-weight: 300; }
 
 #slide-out .collapsible li a:hover {
   background-color: #000000;
   color: #FFFFFF;
-  font-weight: 400;
+  font-weight: 300;
   border-radius: 0; }
 
 .side-nav .collapsible-body a {
@@ -580,7 +583,7 @@ nav a {
 /* =Blog
 ==============================*/
 .blog a {
-  color: #000000; }
+  color: #4F5B62; }
 
 .blog a:hover,
 .blog a:focus {
