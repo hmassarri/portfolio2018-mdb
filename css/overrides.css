@@ -484,7 +484,7 @@ nav a {
   color: #000000 !important; }
 
 #slide-out {
-  font-wieight: 200; }
+  font-wieight: 300; }
 
 #slide-out a {
   color: #000A12;
@@ -497,7 +497,7 @@ nav a {
 
 #slide-out .collapsible-body a {
   background-color: rgba(0, 0, 0, 0.08);
-  font-weight: 400; }
+  font-weight: 300; }
 
 .side-nav .logo-wrapper,
 .side-nav .logo-wrapper a {

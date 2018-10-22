@@ -36,7 +36,7 @@ $(document).ready(function() {
             //$('.button-collapse').removeClass('black-text').addClass('white-text');
             //$('.side-nav').removeClass('white').addClass('pink accent-2');
         } else {
-            $('#topnav').addClass('white').removeClass('black').fadeIn(100);
+            $('#topnav').removeClass('black').addClass('white').fadeIn(100);
             $('.fa-linkedin, .fa-apple, .fa-github, .fa-instagram, .fa-bandcamp, .fa-soundcloud').removeClass('white-text').addClass('black-text').fadeIn(100);
             $('.breadcrumb-dn').removeClass('white-text').addClass('black-text').fadeIn(100);
             //$('.link').removeClass('white-text').addClass('black-text');
