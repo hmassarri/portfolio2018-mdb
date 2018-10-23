@@ -41,6 +41,25 @@ $tertiary-dark: #707070;
 .tertiary-dark-text { color: $tertiary-dark !important; }
 
 
+/* =Border Colors
+==============================*/
+.border-primary { border-color: $primary !important; }
+.border-primary-light { border-color: $primary-light !important; }
+.border-primary-dark { border-color: $primary-dark !important; }
+
+.border-secondary { border-color: $secondary !important; }
+.border-secondary-light { border-color: $secondary-light !important; }
+.border-secondary-dark { border-color: $secondary-dark !important; }
+
+.border-tertiary { border-color: $tertiary !important; }
+.border-tertiary-light { border-color: $tertiary-light !important; }
+.border-tertiary-dark { border-color: $tertiary-dark !important; }
+
+.border-black { border-color: $black !important; }
+.border-white { border-color: $white !important; }
+.border-cyan { border-color: $cyan !important; }
+
+
 
 $rembase: 14px;
 

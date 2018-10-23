@@ -27,14 +27,18 @@ hr {
     border-top: 1px solid rgba(0, 0, 0, .15);
 }
 
+.subheading-hm {
+	font-family: CallunaLghtRegular, Georgia, serif;
+}
+
 /* =Sidenav and Nav
 ==============================*/
-
 nav a {
     color: $black !important;
 }
 #slide-out {
     font-wieight: 300;
+	border-right: 1px solid $tertiary-light;
 }
 #slide-out a {
     color: $primary-dark;
@@ -80,11 +84,12 @@ nav a {
 .double-nav .button-collapse {
     left: 0px;
 }
+
+
 /* =Scrollspy
 ==============================*/
-
 #myScrollspy {
-    margin-left: 120px;
+    margin-left: 35px;
 }
 #myScrollspy .nav-item {
     width: 100%;
@@ -117,9 +122,9 @@ nav a {
     box-shadow: none;
 }
 
+
 /* =Discography
 ==============================*/
-
 .discog-button {
     background-color: $primary-dark;
     color: $white;
@@ -137,9 +142,9 @@ nav a {
     transition: all 0s ease-in-out;
 }
 
+
 /* =Blog
 ==============================*/
-
 .blog a {
     color: $primary-light;
 }
@@ -149,17 +154,17 @@ nav a {
     text-decoration: underline;
 }
 
+
 /* =Process
 ==============================*/
-
 .lb-data .lb-details {
     width: 100%;
     text-align: right !important;
 }
 
+
 /* =Web
 ==============================*/
-
 #web .card.card-image {
     background-position: top !important;
 }
