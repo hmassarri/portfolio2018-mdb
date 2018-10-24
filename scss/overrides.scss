@@ -123,11 +123,32 @@ nav a {
 }
 
 
+/* =portfolioSite Web
+==============================*/
+#web {}
+.portfolioSite-button {
+    background-color: $black;
+    color: $white;
+    padding: 10px 30px;
+    display: inline-block;
+    width: auto;
+    border-radius: 0px;
+}
+.portfolioSite-button:focus,
+.portfolioSite-button:hover {
+    background-color: $cyan;
+    color: $black;
+}
+.portfolioSite-button .hoverable {
+    transition: all 0s ease-in-out;
+}
+
 /* =Discography
 ==============================*/
+#discog {}
 .discog-button {
-    background-color: $primary-dark;
-    color: $white;
+    background-color: $white;
+    color: $black;
     padding: 10px 30px;
     display: inline-block;
     width: auto;
