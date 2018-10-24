@@ -1,5 +1,6 @@
 $(document).ready(function() {
     
+
     //Sidenav
     $('.button-collapse').sideNav();
     
@@ -22,7 +23,7 @@ $(document).ready(function() {
 		}
 	});
     
-
+    
     // Change color on the nav bar
     $(window).scroll(function() {
         //$('.carousel, .carousel-slider').css('opacity', 1 - $(window).scrollTop() / 250);

@@ -5,21 +5,49 @@
 		margin-top: .2rem !important;
 		font-size: 1.4rem;
 	}
-	
+	#socialMediaLinks {
+		display: none;
+	}
+    
+    .process-spacer {
+        padding: 35px 0;
+    }
+    
+    
+    //Process
 	#mental_model {
 		margin-top: 0px !important;
 		margin-bottom: 0px !important;
 	}
-	
-	#socialMediaLinks {
-		display: none;
-	}
-	
+    #process h2, #process p, #process figure {
+        text-align: center !important;
+    }
+    #process .figure {
+        display: block;
+        margin-bottom: 3rem;
+    }
+    
+    
+    //Discography
 	.discog-button {
 		width: 100% !important;
 	}
-	
-	.portfolioSite-button {
+	#discography h2, #discography h3, #discography h5, #discography p {
+        text-align: center !important;
+    }
+    #discography h3 {
+        margin-top: 2.5rem !important;
+    }
+    #discography .blockquote-footer {
+        text-align: center;
+    }
+    
+    
+    //Web Portfolio
+    #web h2, #web h3, #web h5 {
+        text-align: center !important;
+    }
+    .portfolioSite-button {
 		width: 100% !important;
 	}
 }
