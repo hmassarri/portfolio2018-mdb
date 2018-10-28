@@ -22,7 +22,11 @@ $(document).ready(function() {
 			$('#startPosition').removeClass('active').addClass('active');
 		}
 	});
-    
+
+	// Lightbox 
+	$(function () {
+		$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+	});
     
     // Change color on the nav bar
     $(window).scroll(function() {

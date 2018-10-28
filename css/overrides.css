@@ -727,4 +727,22 @@ nav a {
 .webproject-button-2 .hoverable {
   transition: all 0s ease-in-out; }
 
+/* =Discography
+==============================*/
+.contact-button {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 10px 30px;
+  display: inline-block;
+  width: auto;
+  border-radius: 0px; }
+
+.contact-button:focus,
+.contact-button:hover {
+  background-color: #00BCD4;
+  color: #000000; }
+
+.contact-button .hoverable {
+  transition: all 0s ease-in-out; }
+
 /*# sourceMappingURL=overrides.css.map */

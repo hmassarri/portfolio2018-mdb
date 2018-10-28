@@ -222,3 +222,24 @@ nav a {
 .webproject-button-2 .hoverable {
     transition: all 0s ease-in-out;
 }
+
+
+/* =Discography
+==============================*/
+#contact {}
+.contact-button {
+    background-color: $black;
+    color: $white;
+    padding: 10px 30px;
+    display: inline-block;
+    width: auto;
+    border-radius: 0px;
+}
+.contact-button:focus,
+.contact-button:hover {
+    background-color: $cyan;
+    color: $black;
+}
+.contact-button .hoverable {
+    transition: all 0s ease-in-out;
+}
