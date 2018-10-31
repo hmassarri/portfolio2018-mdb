@@ -1,5 +1,25 @@
 /* =Color Palette
 ==============================*/
+/* Blue and Grey
+==============================
+$primary: #424242;
+$primary-light: #4F5B62;
+$primary-dark: #303030;
+
+$secondary: #1f96f3;
+$secondary-light: #01b0ff;
+$secondary-dark: #0081cb;
+
+$white: #FFFFFF;
+$black: #000000;
+$cyan:  #00BCD4;
+
+$tertiary: #9E9E9E;
+$tertiary-light: #F1F1F1;
+$tertiary-dark: #707070;
+==============================*/
+/* Pink and Black 
+==============================*/
 /* =Color Classes
 ==============================*/
 .primary {
@@ -15,10 +35,10 @@
   color: #4F5B62 !important; }
 
 .primary-dark {
-  background-color: #000A12 !important; }
+  background-color: #292c30 !important; }
 
 .primary-dark-text {
-  color: #000A12 !important; }
+  color: #292c30 !important; }
 
 .secondary {
   background-color: #F06292 !important; }
@@ -65,7 +85,7 @@
   border: 1px solid #4F5B62 !important; }
 
 .border-primary-dark {
-  border: 1px solid #000A12 !important; }
+  border: 1px solid #292c30 !important; }
 
 .border-secondary {
   border: 1px solid #F06292 !important; }
@@ -560,7 +580,7 @@ nav a {
   border-right: 1px solid #F1F1F1; }
 
 #slide-out a {
-  color: #000A12;
+  color: #292c30;
   font-weight: 300; }
 
 #slide-out a:hover,
@@ -618,7 +638,7 @@ nav a {
   padding: 0 5px;
   margin-top: 3px;
   margin-bottom: 3px;
-  color: #000A12; }
+  color: #292c30; }
 
 #myScrollspy li .active {
   color: #F06292;
@@ -712,7 +732,7 @@ nav a {
   transition: all 0s ease-in-out; }
 
 .webproject-button-2 {
-  background-color: #000A12;
+  background-color: #292c30;
   color: #FFFFFF;
   padding: 10px 30px;
   display: inline-block;
