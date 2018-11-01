@@ -1,3 +1,19 @@
+/* Index 
+==============================
+0.  Imports
+1.  HTML, Body, etc
+2.  Fonts
+3.  Sidenav and Nav
+4.  Scrollspy
+5.  Portfolio Site Web
+6.  Discography
+7.  Blog
+8.  Process
+9.  Web
+10. Contact
+==============================*/
+/* Imports
+==============================*/
 /* =Color Palette
 ==============================*/
 /* Blue and Grey
@@ -547,14 +563,11 @@ $tertiary-dark: #707070;
   #mental_model {
     margin-top: 1rem !important;
     margin-bottom: 5rem; } }
-/* Index 
-==============================
-1. HTML, Body, etc
-
-
-==============================*/
 /* =HTML, Body, etc
 ==============================*/
+html, body {
+  font-family: 'Karla', sans-serif; }
+
 header,
 main,
 footer {
@@ -567,8 +580,10 @@ hr {
   border: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.15); }
 
+/* =Fonts
+==============================*/
 .subheading-hm {
-  font-family: CallunaLghtRegular, Georgia, serif; }
+  font-family: Georgia, 'Times New Roman', Times, serif; }
 
 /* =Sidenav and Nav
 ==============================*/
@@ -747,7 +762,7 @@ nav a {
 .webproject-button-2 .hoverable {
   transition: all 0s ease-in-out; }
 
-/* =Discography
+/* =Contact
 ==============================*/
 .contact-button {
   background-color: #000000;
