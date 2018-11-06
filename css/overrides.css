@@ -605,7 +605,9 @@ nav a {
 
 #slide-out .collapsible-body a {
   background-color: rgba(0, 0, 0, 0.08);
-  font-weight: 300; }
+  font-weight: 300;
+  height: 56px !important;
+  line-height: 56px !important; }
 
 .side-nav .logo-wrapper,
 .side-nav .logo-wrapper a {
@@ -629,8 +631,12 @@ nav a {
   font-weight: 300;
   border-radius: 0; }
 
+.side-nav .collapsible a {
+  height: 58px !important;
+  line-height: 58px !important; }
+
 .side-nav .collapsible-body a {
-  padding-left: 55px; }
+  padding-left: 48px; }
 
 .side-nav .logo-wrapper {
   border-bottom: 0px solid rgba(153, 153, 153, 0.3); }
@@ -686,7 +692,8 @@ nav a {
 .portfolioSite-button:focus,
 .portfolioSite-button:hover {
   background-color: #00BCD4;
-  color: #000000; }
+  color: #000000;
+  border-radius: 4px; }
 
 .portfolioSite-button .hoverable {
   transition: all 0s ease-in-out; }
@@ -704,7 +711,8 @@ nav a {
 .discog-button:focus,
 .discog-button:hover {
   background-color: #00BCD4;
-  color: #000000; }
+  color: #000000;
+  border-radius: 4px; }
 
 .discog-button .hoverable {
   transition: all 0s ease-in-out; }
