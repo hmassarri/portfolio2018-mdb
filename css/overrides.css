@@ -558,6 +558,9 @@ $tertiary-dark: #707070;
     text-align: center !important; }
 
   .portfolioSite-button {
+    width: 100% !important; }
+
+  .contact-button {
     width: 100% !important; } }
 @media only screen and (max-width: 1024px) {
   #mental_model {
@@ -803,5 +806,8 @@ nav a {
   border: 1px solid #00BCD4;
   -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 188, 212, 0.25);
   box-shadow: 0 0 0 0.2rem rgba(0, 188, 212, 0.25); }
+
+#contact-form input:matches([type="button"], #contact-form [type="submit"], #contact-form [type="reset"]) {
+  border: none !important; }
 
 /*# sourceMappingURL=overrides.css.map */
