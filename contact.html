@@ -124,13 +124,13 @@
                                     <div class="row">
                                         <!--Grid column-->
                                         <div class="col-sm-12 col-md-8">
-                                            <input type="text" id="name" name="name" class="form-control cyan-text mb-2" placeholder="Name">
+                                            <input type="text" id="name" name="name" class="form-control cyan-text mb-2" placeholder="Name" required>
                                         </div>
                                         <!--Grid column-->
 
                                         <!--Grid column-->
                                         <div class="col-sm-12 col-md-8">
-                                            <input type="text" id="email" name="email" class="form-control cyan-text mb-2" placeholder="Email">
+                                            <input type="text" id="email" name="email" class="form-control cyan-text mb-2" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
                                         </div>
                                         <!--Grid column-->
                                     </div>
@@ -138,7 +138,7 @@
                                     <!--Grid row-->
                                     <div class="row">
                                         <div class="col-sm-12 col-md-8">
-                                            <select name="" id="" class="browser-default custom-select mb-2">
+                                            <select name="" id="" class="browser-default custom-select mb-2" required>
                                                 <option selected value="">Budget</option>
                                                 <option value="1">$1000 - $2500</option>
                                                 <option value="2">$2500 - $5000</option>
@@ -152,15 +152,21 @@
                                     <div class="row">
                                         <!--Grid column-->
                                         <div class="col-sm-12 col-md-8">
-                                            <textarea type="text" id="message" name="message" rows="8" class="form-control cyan-text md-textarea" placeholder="Project Description"></textarea>
+                                            <textarea type="text" id="message" name="message" rows="8" class="form-control cyan-text md-textarea" placeholder="Project Description" required></textarea>
                                         </div>
                                     </div>
                                     <!--Grid row-->
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-8 mt-2">
+                                            <input type="submit" class="contact-button" value="Send">
+                                        </div>
+                                    </div>
                                 </form>
 
                                 <div class="row">
                                     <div class="col-sm-12 col-md-8">
-                                        <a class="contact-button" onclick="document.getElementById('contact-form').submit();">Send</a>
+                                            
+                                            <!-- <a class="contact-button" onclick="document.getElementById('contact-form').submit();">Send</a> -->
                                         <div class="status"></div>
                                     </div>
                                 </div>

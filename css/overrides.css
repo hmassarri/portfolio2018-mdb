@@ -687,13 +687,12 @@ nav a {
   padding: 10px 30px;
   display: inline-block;
   width: auto;
-  border-radius: 0px; }
+  border-radius: 4px; }
 
 .portfolioSite-button:focus,
 .portfolioSite-button:hover {
   background-color: #00BCD4;
-  color: #000000;
-  border-radius: 4px; }
+  color: #000000; }
 
 .portfolioSite-button .hoverable {
   transition: all 0s ease-in-out; }
@@ -706,13 +705,12 @@ nav a {
   padding: 10px 30px;
   display: inline-block;
   width: auto;
-  border-radius: 0px; }
+  border-radius: 4px; }
 
 .discog-button:focus,
 .discog-button:hover {
   background-color: #00BCD4;
-  color: #000000;
-  border-radius: 4px; }
+  color: #000000; }
 
 .discog-button .hoverable {
   transition: all 0s ease-in-out; }
@@ -744,7 +742,7 @@ nav a {
   padding: 10px 30px;
   display: inline-block;
   width: auto;
-  border-radius: 0px; }
+  border-radius: 4px; }
 
 .webproject-button-1:focus,
 .webproject-button-1:hover {
@@ -760,7 +758,7 @@ nav a {
   padding: 10px 30px;
   display: inline-block;
   width: auto;
-  border-radius: 0px; }
+  border-radius: 4px; }
 
 .webproject-button-2:focus,
 .webproject-button-2:hover {
@@ -778,13 +776,12 @@ nav a {
   padding: 10px 30px;
   display: inline-block;
   width: auto;
-  border-radius: 0px; }
+  border-radius: 4px; }
 
 .contact-button:focus,
 .contact-button:hover {
   background-color: #00BCD4;
-  color: #000000;
-  border-radius: 4px; }
+  color: #000000; }
 
 .contact-button .hoverable {
   transition: all 0s ease-in-out; }
