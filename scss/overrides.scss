@@ -258,7 +258,7 @@ nav a {
 #contact {}
 .contact-button {
     background-color: $black;
-    color: $white;
+    color: $white !important;
     padding: 10px 30px;
     display: inline-block;
     width: auto;
@@ -268,7 +268,28 @@ nav a {
 .contact-button:hover {
     background-color: $cyan;
     color: $black;
+    border-radius: 4px;
 }
 .contact-button .hoverable {
     transition: all 0s ease-in-out;
+}
+
+
+#contact-form .form-control:focus {
+    color: $cyan;
+    border: 1px solid $cyan;
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 188, 212, .25);
+    box-shadow: 0 0 0 0.2rem rgba(0, 188, 212, .25);
+}
+#contact-form select:focus {
+    color: $cyan;
+    border: 1px solid $cyan;
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 188, 212, .25);
+    box-shadow: 0 0 0 0.2rem rgba(0, 188, 212, .25);
+}
+#contact-form .custom-select:focus {
+    color: $cyan;
+    border: 1px solid $cyan;
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 188, 212, .25);
+    box-shadow: 0 0 0 0.2rem rgba(0, 188, 212, .25);
 }

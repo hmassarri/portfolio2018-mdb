@@ -774,7 +774,7 @@ nav a {
 ==============================*/
 .contact-button {
   background-color: #000000;
-  color: #FFFFFF;
+  color: #FFFFFF !important;
   padding: 10px 30px;
   display: inline-block;
   width: auto;
@@ -783,9 +783,28 @@ nav a {
 .contact-button:focus,
 .contact-button:hover {
   background-color: #00BCD4;
-  color: #000000; }
+  color: #000000;
+  border-radius: 4px; }
 
 .contact-button .hoverable {
   transition: all 0s ease-in-out; }
+
+#contact-form .form-control:focus {
+  color: #00BCD4;
+  border: 1px solid #00BCD4;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 188, 212, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 188, 212, 0.25); }
+
+#contact-form select:focus {
+  color: #00BCD4;
+  border: 1px solid #00BCD4;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 188, 212, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 188, 212, 0.25); }
+
+#contact-form .custom-select:focus {
+  color: #00BCD4;
+  border: 1px solid #00BCD4;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 188, 212, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 188, 212, 0.25); }
 
 /*# sourceMappingURL=overrides.css.map */
