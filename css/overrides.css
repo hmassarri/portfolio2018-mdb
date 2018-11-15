@@ -535,7 +535,7 @@ $tertiary-dark: #707070;
     margin-top: 0px !important;
     margin-bottom: 0px !important; }
 
-  #process h2, #process p, #process figure {
+  #process h1, #process h2, #process h3, #process h4, #process h5, #process p, #process figure, #process footer {
     text-align: center !important; }
 
   #process .figure {
@@ -545,7 +545,7 @@ $tertiary-dark: #707070;
   .discog-button {
     width: 100% !important; }
 
-  #discography h2, #discography h3, #discography h5, #discography p {
+  #discopgrahy h1, #discography h2, #discography h3, #discography h5, #discography p, #discography footer {
     text-align: center !important; }
 
   #discography h3 {
@@ -554,7 +554,10 @@ $tertiary-dark: #707070;
   #discography .blockquote-footer {
     text-align: center; }
 
-  #web h2, #web h3, #web h5 {
+  #media h1, #media h2, #media h3, #media h4, #media h5, #media footer {
+    text-align: center !important; }
+
+  #web h1, #web h2, #web h3, #web h4, #web h5, #web p, #web footer {
     text-align: center !important; }
 
   .portfolioSite-button {
