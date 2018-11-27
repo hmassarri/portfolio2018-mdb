@@ -149,8 +149,20 @@ nav a {
 }
 
 
+/* =portfolioUX
+==============================*/
+#ux {
+    background-color: $tertiary-light;
+}
+.ux-project {
+    background-color: $white;
+    padding: 80px;
+    color: $black;
+    border: 1px solid $tertiary-light;
+    border-radius: 4px;
+}
 
-/* =portfolioSite Web
+/* =portfolioWeb
 ==============================*/
 #web {}
 .portfolioSite-button {
@@ -165,9 +177,21 @@ nav a {
 .portfolioSite-button:hover {
     background-color: $cyan;
     color: $black;
+    transform: scale(1.15);
 }
 .portfolioSite-button .hoverable {
-    transition: all 0s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+
+/* =portfolioMedia
+==============================*/
+.mdb-lightbox img {
+    transition: 1s ease-in-out;
+    border: 3px solid #FFFFFF;
+}
+.mdb-lightbox img:hover {
+    border: 3px solid $cyan;
 }
 
 /* =Discography
@@ -185,9 +209,10 @@ nav a {
 .discog-button:hover {
     background-color: $cyan;
     color: $black;
+    transform: scale(1.15);
 }
 .discog-button .hoverable {
-    transition: all 0s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 
@@ -211,46 +236,6 @@ nav a {
 }
 
 
-/* =Web
-==============================*/
-#web .card.card-image {
-    background-position: top !important;
-}
-.webproject-button-1 {
-    background-color: $secondary;
-    color: $white;
-    padding: 10px 30px;
-    display: inline-block;
-    width: auto;
-    border-radius: 4px;
-}
-.webproject-button-1:focus,
-.webproject-button-1:hover {
-    background-color: $cyan;
-    color: $black;
-}
-.webproject-button-1 .hoverable {
-    transition: all 0s ease-in-out;
-}
-
-.webproject-button-2 {
-    background-color: $primary-dark;
-    color: $white;
-    padding: 10px 30px;
-    display: inline-block;
-    width: auto;
-    border-radius: 4px;
-}
-.webproject-button-2:focus,
-.webproject-button-2:hover {
-    background-color: $cyan;
-    color: $black;
-}
-.webproject-button-2 .hoverable {
-    transition: all 0s ease-in-out;
-}
-
-
 /* =Contact
 ==============================*/
 #contact {}
@@ -261,14 +246,16 @@ nav a {
     display: inline-block;
     width: auto;
     border-radius: 4px;
+    transition: .25s ease-in-out;
 }
 .contact-button:focus,
 .contact-button:hover {
     background-color: $cyan;
     color: $black;
+    transform: scale(1.15);
 }
 .contact-button .hoverable {
-    transition: all 0s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 

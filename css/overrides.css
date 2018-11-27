@@ -685,7 +685,19 @@ nav a {
   -webkit-box-shadow: none;
   box-shadow: none; }
 
-/* =portfolioSite Web
+/* =portfolioUX
+==============================*/
+#ux {
+  background-color: #F1F1F1; }
+
+.ux-project {
+  background-color: #FFFFFF;
+  padding: 80px;
+  color: #000000;
+  border: 1px solid #F1F1F1;
+  border-radius: 4px; }
+
+/* =portfolioWeb
 ==============================*/
 .portfolioSite-button {
   background-color: #000000;
@@ -698,10 +710,20 @@ nav a {
 .portfolioSite-button:focus,
 .portfolioSite-button:hover {
   background-color: #00BCD4;
-  color: #000000; }
+  color: #000000;
+  transform: scale(1.15); }
 
 .portfolioSite-button .hoverable {
-  transition: all 0s ease-in-out; }
+  transition: all 1s ease-in-out; }
+
+/* =portfolioMedia
+==============================*/
+.mdb-lightbox img {
+  transition: 1s ease-in-out;
+  border: 3px solid #FFFFFF; }
+
+.mdb-lightbox img:hover {
+  border: 3px solid #00BCD4; }
 
 /* =Discography
 ==============================*/
@@ -716,10 +738,11 @@ nav a {
 .discog-button:focus,
 .discog-button:hover {
   background-color: #00BCD4;
-  color: #000000; }
+  color: #000000;
+  transform: scale(1.15); }
 
 .discog-button .hoverable {
-  transition: all 0s ease-in-out; }
+  transition: all 1s ease-in-out; }
 
 /* =Blog
 ==============================*/
@@ -737,43 +760,6 @@ nav a {
   width: 100%;
   text-align: right !important; }
 
-/* =Web
-==============================*/
-#web .card.card-image {
-  background-position: top !important; }
-
-.webproject-button-1 {
-  background-color: #F06292;
-  color: #FFFFFF;
-  padding: 10px 30px;
-  display: inline-block;
-  width: auto;
-  border-radius: 4px; }
-
-.webproject-button-1:focus,
-.webproject-button-1:hover {
-  background-color: #00BCD4;
-  color: #000000; }
-
-.webproject-button-1 .hoverable {
-  transition: all 0s ease-in-out; }
-
-.webproject-button-2 {
-  background-color: #292c30;
-  color: #FFFFFF;
-  padding: 10px 30px;
-  display: inline-block;
-  width: auto;
-  border-radius: 4px; }
-
-.webproject-button-2:focus,
-.webproject-button-2:hover {
-  background-color: #00BCD4;
-  color: #000000; }
-
-.webproject-button-2 .hoverable {
-  transition: all 0s ease-in-out; }
-
 /* =Contact
 ==============================*/
 .contact-button {
@@ -782,15 +768,17 @@ nav a {
   padding: 10px 30px;
   display: inline-block;
   width: auto;
-  border-radius: 4px; }
+  border-radius: 4px;
+  transition: .25s ease-in-out; }
 
 .contact-button:focus,
 .contact-button:hover {
   background-color: #00BCD4;
-  color: #000000; }
+  color: #000000;
+  transform: scale(1.15); }
 
 .contact-button .hoverable {
-  transition: all 0s ease-in-out; }
+  transition: all 1s ease-in-out; }
 
 #contact-form .form-control:focus {
   color: #00BCD4;
