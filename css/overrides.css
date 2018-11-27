@@ -531,21 +531,51 @@ $tertiary-dark: #707070;
   .process-spacer {
     padding: 35px 0; }
 
+  #home h1,
+  #home h2,
+  #home h3,
+  #home h4,
+  #home h5,
+  #home p {
+    text-align: center !important; }
+
   #mental_model {
     margin-top: 0px !important;
     margin-bottom: 0px !important; }
 
-  #process h1, #process h2, #process h3, #process h4, #process h5, #process p, #process figure, #process footer {
+  #process h1,
+  #process h2,
+  #process h3,
+  #process h4,
+  #process h5,
+  #process p,
+  #process figure,
+  #process footer {
     text-align: center !important; }
 
   #process .figure {
     display: block;
     margin-bottom: 3rem; }
 
+  #blog h1,
+  #blog h2,
+  #blog h3,
+  #blog h4,
+  #blog h5,
+  #blog h6,
+  #blog p {
+    text-align: center !important; }
+
   .discog-button {
     width: 100% !important; }
 
-  #discopgrahy h1, #discography h2, #discography h3, #discography h5, #discography p, #discography footer {
+  #discography h1,
+  #discography h2,
+  #discography h3,
+  #discography h4,
+  #discography h5,
+  #discography p,
+  #discography footer {
     text-align: center !important; }
 
   #discography h3 {
@@ -554,14 +584,33 @@ $tertiary-dark: #707070;
   #discography .blockquote-footer {
     text-align: center; }
 
-  #media h1, #media h2, #media h3, #media h4, #media h5, #media footer {
+  #media h1,
+  #media h2,
+  #media h3,
+  #media h4,
+  #media h5,
+  #media footer {
     text-align: center !important; }
 
-  #web h1, #web h2, #web h3, #web h4, #web h5, #web p, #web footer {
+  #web h1,
+  #web h2,
+  #web h3,
+  #web h4,
+  #web h5,
+  #web p,
+  #web footer {
     text-align: center !important; }
 
   .portfolioSite-button {
     width: 100% !important; }
+
+  #contact h1,
+  #contact h2,
+  #contact h3,
+  #contact h4,
+  #contact h5,
+  #contact p {
+    text-align: center !important; }
 
   .contact-button {
     width: 100% !important; } }
@@ -571,7 +620,8 @@ $tertiary-dark: #707070;
     margin-bottom: 5rem; } }
 /* =HTML, Body, etc
 ==============================*/
-html, body {
+html,
+body {
   font-family: 'Karla', sans-serif; }
 
 header,
@@ -742,7 +792,12 @@ nav a {
   transform: scale(1.15); }
 
 .discog-button .hoverable {
-  transition: all 1s ease-in-out; }
+  transition: all 1s ease-in-out;
+  background-color: #00BCD4;
+  color: #000000; }
+
+.portfolioSite-button .hoverable {
+  transition: all 0s ease-in-out; }
 
 /* =Blog
 ==============================*/
@@ -759,6 +814,61 @@ nav a {
 .lb-data .lb-details {
   width: 100%;
   text-align: right !important; }
+
+/* =Discography
+==============================*/
+.discog-button {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 10px 30px;
+  display: inline-block;
+  width: auto;
+  border-radius: 4px; }
+
+.discog-button:focus,
+.discog-button:hover {
+  background-color: #00BCD4;
+  color: #000000; }
+
+.discog-button .hoverable {
+  transition: all 0s ease-in-out; }
+
+/* =Web
+==============================*/
+#web .card.card-image {
+  background-position: top !important; }
+
+.webproject-button-1 {
+  background-color: #F06292;
+  color: #FFFFFF;
+  padding: 10px 30px;
+  display: inline-block;
+  width: auto;
+  border-radius: 4px; }
+
+.webproject-button-1:focus,
+.webproject-button-1:hover {
+  background-color: #00BCD4;
+  color: #000000; }
+
+.webproject-button-1 .hoverable {
+  transition: all 0s ease-in-out; }
+
+.webproject-button-2 {
+  background-color: #292c30;
+  color: #FFFFFF;
+  padding: 10px 30px;
+  display: inline-block;
+  width: auto;
+  border-radius: 4px; }
+
+.webproject-button-2:focus,
+.webproject-button-2:hover {
+  background-color: #00BCD4;
+  color: #000000; }
+
+.webproject-button-2 .hoverable {
+  transition: all 0s ease-in-out; }
 
 /* =Contact
 ==============================*/
