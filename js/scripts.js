@@ -35,14 +35,14 @@ $(document).ready(function() {
 
         if ($(window).scrollTop() > 30) {
             $('#topnav').removeClass('white').addClass('black').fadeIn(100);
-            $('.fa-linkedin, .fa-apple, .fa-github, .fa-instagram, .fa-bandcamp, .fa-soundcloud').removeClass('black-text').addClass('white-text').fadeIn(100);
+            $('.fa-linkedin, .fa-apple, .fa-github, .fa-instagram, .fa-bandcamp, .fa-soundcloud').removeClass('black-text').addClass('cyan-text').fadeIn(100);
             $('.breadcrumb-dn').removeClass('black-text').addClass('white-text').fadeIn(100);
             //$('.link').removeClass('black-text').addClass('white-text');
             //$('.button-collapse').removeClass('black-text').addClass('white-text');
             //$('.side-nav').removeClass('white').addClass('pink accent-2');
         } else {
             $('#topnav').removeClass('black').addClass('white').fadeIn(100);
-            $('.fa-linkedin, .fa-apple, .fa-github, .fa-instagram, .fa-bandcamp, .fa-soundcloud').removeClass('white-text').addClass('black-text').fadeIn(100);
+            $('.fa-linkedin, .fa-apple, .fa-github, .fa-instagram, .fa-bandcamp, .fa-soundcloud').removeClass('cyan-text').addClass('black-text').fadeIn(100);
             $('.breadcrumb-dn').removeClass('white-text').addClass('black-text').fadeIn(100);
             //$('.link').removeClass('white-text').addClass('black-text');
             //$('.button-collapse').removeClass('white-text').addClass('black-text');

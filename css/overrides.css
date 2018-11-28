@@ -738,13 +738,13 @@ nav a {
 /* =portfolioUX
 ==============================*/
 #ux {
-  background-color: #F1F1F1; }
+  background-color: #FFFFFF; }
 
 .ux-project {
   background-color: #FFFFFF;
   padding: 80px;
   color: #000000;
-  border: 1px solid #F1F1F1;
+  border: 0px solid #F1F1F1;
   border-radius: 4px; }
 
 /* =portfolioWeb
@@ -769,11 +769,12 @@ nav a {
 /* =portfolioMedia
 ==============================*/
 .mdb-lightbox img {
-  transition: 1s ease-in-out;
-  border: 3px solid #FFFFFF; }
+  transition: all .55s ease-in-out;
+  border: 5px solid #FFFFFF; }
 
 .mdb-lightbox img:hover {
-  border: 3px solid #00BCD4; }
+  transition: all .55s ease-in-out;
+  border: 5px solid #000000; }
 
 /* =Discography
 ==============================*/
