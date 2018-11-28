@@ -174,13 +174,13 @@ nav a {
 /* =portfolioUX
 ==============================*/
 #ux {
-    background-color: $tertiary-light;
+    background-color: $white;
 }
 .ux-project {
     background-color: $white;
     padding: 80px;
     color: $black;
-    border: 1px solid $tertiary-light;
+    border: 0px solid $tertiary-light;
     border-radius: 4px;
 }
 
@@ -212,10 +212,9 @@ nav a {
 ==============================*/
 .mdb-lightbox img {
     transition: 1s ease-in-out;
-    border: 3px solid #FFFFFF;
 }
 .mdb-lightbox img:hover {
-    border: 3px solid $cyan;
+
 }
 
 /* =Discography
