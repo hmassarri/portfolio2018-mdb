@@ -1,0 +1,299 @@
+// ==============================
+// 1 =HTML, Body, etc
+// 2 =Fonts
+// 3 =Sidenav and Nav
+// 4 =Scrollspy
+// 5 =Portfolio
+// 6 =Blog
+// 7 =Process
+// 8 =Contact
+// 9 =Buttons
+// ==============================
+// For faster searching - use the global find in your editor and select
+// "Number" + " =" + Section Name
+// ==============================
+
+
+// 1 =HTML, Body, etc
+// ==============================
+html,
+body {
+	font-family: 'Karla', sans-serif;
+}
+
+header,
+main,
+footer {
+	padding-left: 240px;
+}
+
+hr {
+	box-sizing: content-box;
+	height: 0;
+	margin-top: 1rem;
+	border: 0;
+	border-top: 1px solid rgba(0, 0, 0, .15);
+}
+
+
+// 2 =Fonts
+// ==============================
+.subheading-hm {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+// 3 =Sidenav and Nav
+// ==============================
+nav a {
+	color: $black !important;
+}
+
+#slide-out {
+	font-wieight: 300;
+	border-right: 0px solid $tertiary-light;
+	width: 180px;
+	background-color: $tertiary-light;
+	
+	a {
+		color: $black;
+		font-weight: 300;	
+	}
+	
+	&:focus, &:hover {
+		color: $black;
+		font-weight: inherit;	
+	}
+	
+	.collapsible-body a {
+		background-color: rgba(0, 0, 0, .08);
+		font-weight: 300;
+		height: 56px !important;
+		line-height: 56px !important;
+	}
+	
+	.collapsible li a:hover {
+		background-color: $black;
+		color: $white;
+		font-weight: 300;
+		border-radius: 0;
+	}
+	
+	.collapsible > li a.collapsible-header.active {
+		background-color: $secondary;
+		color: $white !important;
+	}
+}
+
+.side-nav {
+	.logo-wrapper, .logo-wrapper a {
+		height: 120px;
+	}
+	
+	.logo-wrapper img {
+		padding: 30px 30px 20px 40px;
+	}
+	
+	.collapsible > li a.collapsible-header:hover {
+		background-color: $black;
+		color: $white !important;
+		font-weight: 300;
+	}
+	
+	.collapsible a {
+		height: 58px !important;
+		line-height: 58px !important;
+	}
+	
+	.collapsible-body a {
+		padding-left: 48px;
+	}
+	
+	.logo-wrapper {
+		border-bottom: 0px solid rgba(153, 153, 153, .3);
+	}
+	
+	.button-collapse {
+		left: 0px;
+	}	
+}
+
+.double-nav .button-collapse {
+	left: 0;
+}
+
+
+// 4 =Scrollspy
+// ==============================
+#myScrollspy {
+	margin-left: 35px;
+	
+	.nav-item {
+		width: 100%;
+	}
+	
+	a {
+		font-size: .8rem;
+		font-weight: 500;
+		line-height: 1.1rem;
+		padding: 0 5px;
+		margin-top: 3px;
+		margin-bottom: 3px;
+		color: $primary-dark;
+	}
+	
+	li .active {
+		color: $secondary;
+		font-weight: 900;
+	}
+	
+	.nav-pills.default-pills .nav-item a.active {
+		border-left: .125rem solid $secondary;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+}
+
+.scrollspy-list {
+	height: 500px;
+}
+
+.process-spacer-start {
+	padding: 74px 0;
+}
+
+.process-spacer {
+	padding: 70px 0;
+}
+
+
+
+// 5 =portfolioUX
+// ==============================
+#ux {
+    background-color: $white;
+}
+.ux-project {
+    background-color: $white;
+    padding: 80px;
+    color: $black;
+    border: 0px solid $tertiary-light;
+    border-radius: 4px;
+}
+
+// 5 =portfolioWeb
+// ==============================
+#web {}
+
+#web .card.card-image {
+	background-position: top !important;
+}
+
+
+// 5 =portfolioMedia
+// ==============================
+.mdb-lightbox {
+	img {
+    	transition: all .55s ease-in-out;
+    	border: 5px solid $white;
+		
+		&:hover {
+    	transition: all .55s ease-in-out;
+    	border: 5px solid $black;
+		}
+	}
+	
+	
+}
+
+
+// 6 =Blog
+// ==============================
+.blog a {
+	color: $primary-light;
+	
+	&focus, &:hover {
+		color: $cyan;
+		text-decoration: underline;
+	}
+}
+
+
+// 7 =Process
+// ==============================
+.lb-data .lb-details {
+	width: 100%;
+	text-align: right !important;
+}
+
+
+// =Web
+// ==============================
+
+
+
+// 8 =Contact
+// ==============================
+#contact {}
+
+#contact-form {
+	
+	.form-control:focus {
+		color: $cyan;
+		border: 1px solid $cyan;
+		-webkit-box-shadow: 0 0 0 0.2rem rgba(0, 188, 212, .25);
+		box-shadow: 0 0 0 0.2rem rgba(0, 188, 212, .25);
+	}
+	
+	select:focus {
+		color: $cyan;
+		border: 1px solid $cyan;
+		-webkit-box-shadow: 0 0 0 0.2rem rgba(0, 188, 212, .25);
+		box-shadow: 0 0 0 0.2rem rgba(0, 188, 212, .25);
+	}
+	
+	.custom-select:focus {
+		color: $cyan;
+		border: 1px solid $cyan;
+		-webkit-box-shadow: 0 0 0 0.2rem rgba(0, 188, 212, .25);
+		box-shadow: 0 0 0 0.2rem rgba(0, 188, 212, .25);
+	}
+	
+	input:matches([type="button"], #contact-form [type="submit"], #contact-form [type="reset"]) {
+		border: none !important;
+	}
+}
+
+
+// 9 =Buttons
+// ==============================
+@mixin buttonStyle($bg, $color, $hover, $hovercolor) {
+	background-color: $bg;
+	color: $color;
+	padding: 10px 30px;
+    display: inline-block;
+    width: auto;
+    border-radius: 4px;
+	border-color: none !important;
+	border-style: none !important;
+	border-width: none !important;
+	text-transform: uppercase;
+	font-size: .80rem;
+	letter-spacing: 1px;
+	
+	&:focus, &:hover {
+		background-color: $hover;
+		color: $hovercolor;
+		transform: scale(1.15);
+		transition: all .25s ease-in-out;
+	}
+	.hoverable {
+		transition: all 1s ease-in-out;
+		background-color: $hover;
+		color: $hovercolor;
+	}
+}
+
+.hm-button {
+	@include buttonStyle($black, $white, $cyan, $white);
+}

@@ -1,8 +1,8 @@
-/* =Color Palette
-==============================*/
+// =Color Palette
+// ==============================
 
-/* Blue and Grey
-==============================
+// Blue and Grey
+/* ==============================
 $primary: #424242;
 $primary-light: #4F5B62;
 $primary-dark: #303030;
@@ -18,10 +18,10 @@ $cyan:  #00BCD4;
 $tertiary: #9E9E9E;
 $tertiary-light: #F1F1F1;
 $tertiary-dark: #707070;
-==============================*/
+// ============================== */
 
-/* Pink and Black 
-==============================*/
+// Pink and Black 
+// ==============================
 $primary: #263238;
 $primary-light: #4F5B62;
 $primary-dark: #292c30;
@@ -40,8 +40,8 @@ $tertiary-dark: #707070;
 
 
 
-/* =Color Classes
-==============================*/
+// =Color Classes
+// ==============================
 .primary { background-color: $primary !important; }
 .primary-text { color: $primary !important; }
 .primary-light { background-color: $primary-light !important; }
@@ -64,8 +64,8 @@ $tertiary-dark: #707070;
 .tertiary-dark-text { color: $tertiary-dark !important; }
 
 
-/* =Border Colors
-==============================*/
+// =Border Colors
+// ==============================
 .border-primary { border: 1px solid $primary !important; }
 .border-primary-light { border: 1px solid $primary-light !important; }
 .border-primary-dark { border: 1px solid $primary-dark !important; }
@@ -87,29 +87,29 @@ $tertiary-dark: #707070;
 $rembase: 14px;
 
 
-/* != Font Size $rembase = 14px
---------------------------------------------------------------
-* hmtl { font-size: 87.5%; }
-* body { font-size: 14px; font-size: 1rem; line-height: 1; }
-* 4px    	0.28571429rem
-* 8px		0.571428571rem
-* 10px		0.71428571rem
-* 12px		0.857142857rem
-* 13px		0.928571429rem
-* 14px		1rem
-* 16px		1.142857143rem
-* 18px		1.285714286rem
-* 20px		1.428571429rem
-* 21px		1.5rem
-* 22px		1.571428571rem
-* 24px		1.714285714rem
-* 28px		2rem
-* 36px		2.571428571rem
-* 42px		3rem
-* 48px		3.428571429rem
-* 64px		4.57142857rem
-* 72px		5.142857143rem
-*/
+// != Font Size $rembase = 14px
+// ==============================
+// * html { font-size: 87.5%; }
+// * body { font-size: 14px; font-size: 1rem; line-height: 1; }
+// * 4px    	0.28571429rem
+// * 8px		0.571428571rem
+// * 10px		0.71428571rem
+// * 12px		0.857142857rem
+// * 13px		0.928571429rem
+// * 14px		1rem
+// * 16px		1.142857143rem
+// * 18px		1.285714286rem
+// * 20px		1.428571429rem
+// * 21px		1.5rem
+// * 22px		1.571428571rem
+// * 24px		1.714285714rem
+// * 28px		2rem
+// * 36px		2.571428571rem
+// * 42px		3rem
+// * 48px		3.428571429rem
+// * 64px		4.57142857rem
+// * 72px		5.142857143rem
+
 .fs-200 {font-size: 2rem !important; }
 .fs-109 {font-size: 1.9rem !important; }
 .fs-108 {font-size: 1.8rem !important; }
@@ -131,8 +131,8 @@ $rembase: 14px;
 }
 
 
-/*=Margins and Padding
-====================*/
+// =Margins and Padding
+// ====================
 .mt-0 {
 	margin-top: 0px !important;
 }

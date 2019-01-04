@@ -1,0 +1,109 @@
+// ==============================
+// iPhone 6, 7, 8, and X
+// ==============================
+@media only screen and (max-width: 767px) {
+	
+	.double-nav .button-collapse {
+		left: 0;
+	}
+	
+	.breadcrumb h1 {
+		margin-left: 0px !important;
+		margin-top: .2rem !important;
+		font-size: 1.4rem;
+	}
+
+	#socialMediaLinks {
+		display: none;
+	}
+
+	.process-spacer {
+		padding: 35px 0;
+	}
+
+
+
+	// =Home
+	// ==============================
+	#home {
+		h1, h2, h3, h4, h5, h6, p {
+			text-align: center !important;	
+		}
+	}
+
+	// =Process
+	// ==============================
+	#mental_model {
+		margin-top: 0px !important;
+		margin-bottom: 0px !important;
+	}
+
+	#process {
+		
+		h1, h2, h3, h4, h5, h6, p, figure, footer {
+			text-align: center !important;	
+		}
+		
+		.figure {
+			display: block;
+			margin-bottom: 3rem;	
+		}
+	}
+
+	// =Blog
+	// ==============================
+	#blog {
+		h1, h2, h3, h4, h5, h6, p {
+			text-align: center !important;			
+		}
+	}
+	
+	// =Discography
+	// ==============================
+	.discog-button {
+		width: 100% !important;
+		
+		h1, h2, h3, h4, h5, h6, p, footer {
+			text-align: center !important;	
+		}
+		
+		h3 {
+			margin-top: 2.5rem !important;
+		}
+		
+		.blockquote-footer {
+			text-align: center;
+		}
+	}
+
+	// =Media
+	// ==============================
+	#media {
+		h1, h2, h3, h4, h5, footer {
+			text-align: center !important;	
+		}
+	}
+	// =Web Portfolio
+	// ==============================
+	#web {
+		h1, h2, h3, h4, h5, h6, p, footer {
+			text-align: center !important;	
+		}
+	} 
+
+	.portfolioSite-button {
+		width: 100% !important;
+	}
+	
+	// =Contact
+	// ==============================
+	#contact {
+		h1, h2, h3, h4, h5, h6, p {
+			text-align: center !important;	
+		}
+	}
+
+	.contact-button {
+		width: 100% !important;
+	}
+}
