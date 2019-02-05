@@ -433,6 +433,9 @@ main,
 footer {
   padding-left: 240px; }
 
+main {
+  margin-left: 15px !important; }
+
 hr {
   box-sizing: content-box;
   height: 0;
@@ -536,6 +539,9 @@ nav a {
   color: #000000;
   border: 0px solid #F1F1F1;
   border-radius: 4px; }
+
+ul.horizontal-fix li a {
+  padding: .84rem 2.14rem; }
 
 #web .card.card-image {
   background-position: top !important; }

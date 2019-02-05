@@ -52,4 +52,15 @@ $(document).ready(function() {
 
     });
     
+    
+    
+    //UX Portfolio - Stepper
+    $('.stepper').mdbStepper();
+    
+    function uxStepper() {
+        setTimeout(function () {
+            $('#horizontal-stepper-fix').nextStep();
+        }, 2000);
+    }
+    
 });

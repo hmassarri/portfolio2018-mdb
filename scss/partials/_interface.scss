@@ -27,6 +27,10 @@ footer {
 	padding-left: 240px;
 }
 
+main {
+    margin-left: 15px !important;
+}
+
 hr {
 	box-sizing: content-box;
 	height: 0;
@@ -184,6 +188,10 @@ nav a {
     color: $black;
     border: 0px solid $tertiary-light;
     border-radius: 4px;
+}
+
+ul.horizontal-fix li a {
+    padding: .84rem 2.14rem;
 }
 
 // 5 =portfolioWeb
