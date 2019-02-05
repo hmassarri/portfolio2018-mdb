@@ -8,12 +8,13 @@ $(document).ready(function() {
     var sideNavScrollbar = document.querySelector('.custom-scrollbar');
     Ps.initialize(sideNavScrollbar);
     
-    $('.sticky').sticky({
-        topSpacing: 168,
+    /*
+    $('.sticky-top').sticky({
+        topSpacing: 288,
         zIndex: 2,
         stopper: ""
     });
-    
+    */
     $('.process-spacer-start').hide();
 	
 	$(window).scroll(function() {

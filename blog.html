@@ -8,16 +8,20 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/lightbox.min.css" />
     <link rel="stylesheet" href="css/overrides.css" />
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Modernizr -->
+    <script src="js/modernizr.js"></script>
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
-<body id="blog" class="fixed-sn scrollspy-list white" data-spy="scroll" data-target="#myScrollspy" data-offset="150" style="position: relative;">
+<body id="process" class="fixed-sn scrollspy-list white" data-spy="scroll" data-target="#myScrollspy" data-offset="80" style="position: relative;">
 
     <!--Double Nav-->
     <header>
@@ -30,8 +34,8 @@
                         <a href="index.html"><img src="assets/logo7.png" alt="" class="img-fluid flex-center"></a>
                     </div>
                 </li>
-                <li class="text-center primary-dark pt-1 pb-05">
-                    <h5 class="h5-responsive "><span class="cyan-text">HUGO</span><span class="secondary-text">MASSARRI</span></h5>
+                <li class="text-center pt-1 primary-dark pb-05">
+                    <h5 class="h5-responsive"><span class="cyan-text">HUGO</span><span class="secondary-text">MASSARRI</span></h5>
                 </li>
                 <!--
 					<span class="fs-90 cyan-text lighten-1">UIX DEVELOPER</span>
@@ -42,14 +46,14 @@
                         <a href="#" class="collapsible-header waves-effect arrow-r text-left fs-95"><i class="fa fa-hand-o-right"></i>PORTFOLIO</a>
                         <div class="collapsible-body">
                             <ul>
-                                <li><a href="#" class="waves-effect text-left">UX</a></li>
+                                <li><a href="portfolio-ux.html" class="waves-effect text-left">UX</a></li>
                                 <li><a href="portfolio-media.html" class="waves-effect text-left">Digital Art</a></li>
                                 <li><a href="portfolio-web.html" class="waves-effect text-left">Web Development</a></li>
                             </ul>
                         </div>
                     </li>
-                    <li><a href="process.html" class="collapsible-header waves-effect text-left fs-95"><i class="fa fa-cog"></i>PROCESS</a></li>
-                    <li><a href="#" class="collapsible-header waves-effect text-left fs-95 active"><i class="fa fa-user"></i>BLOG</a></li>
+                    <li><a href="process.html" class="collapsible-header waves-effect text-left fs-95 active"><i class="fa fa-cog"></i>PROCESS</a></li>
+                    <li><a href="#" class="collapsible-header waves-effect text-left fs-95"><i class="fa fa-user"></i>BLOG</a></li>
                     <li><a href="discography.html" class="collapsible-header waves-effect text-left fs-95"><i class="fa fa-play-circle"></i>DISCOGRAPHY</a></li>
                     <li><a href="assets/resume/2018-Resume.pdf" target="_blank" class="collapsible-header waves-effect text-left fs-95"><i class="fa fa-file-text"></i>RESUME</a></li>
                     <li><a href="contact.html" class="collapsible-header waves-effect text-left fs-95"><i class="fa fa-envelope"></i>CONTACT</a></li>
@@ -66,10 +70,10 @@
                     <a href="#" data-activates="slide-out" class="button-collapse"><i id="mobile-menu" class="white-text fa fa-bars"></i></a>    
                 </div>
             </div>
-
+            
             <!-- Breadcrumb -->
             <div class="breadcrumb-dn mr-auto">
-                <h4 class="h4-responsive cyan-text ml-1 mt-05">Blog</h4>
+                <h4 class="h4-responsive ml-1 mt-05 cyan-text">Process</h4>
             </div>
             <ul class="nav navbar-nav nav-flex-icons ml-auto">
                 <!--
@@ -105,220 +109,147 @@
         <div class="container-fluid dark-body-text">
 
             <div class="row mt-5">
-                <div class="col-sm-12 col-md-9 col-lg-9">
-
+                <div class="col-sm-12 col-md-12 col-lg-9">
+                        
                     <h1 class="h1-responsive font-weight-bold secondary-text">Blog</h1>
-                    <p class="w-responsive black-text mb-5">Posts of my latest ramblings about media and stuff</p>
+                    <p class="w-responsive black-text mb-5">Commenting on the media that I either find on the Internet or TV</p>
 
                     <hr class="mb-5" />
 
-                    <!-- October 2018 -->
-                    <div id="OCT" class="process-spacer-start">&nbsp;</div>
-                    <section class="blog">
-                        <div class="row">
-                            <div class="col-sm-12 col-lg-7">
-                                <a href="!#" class="pink-text">
-                                    <h6 class="mb-1 font-weight-bold"><i class="fa fa-television pr-1"></i>TV Shows</h6>
-                                </a>
-                                <h3 class="font-weight-bold mb-1"><strong><a href="https://www.netflix.com" target="_blank">Big Mouth</a></strong></h3>
-                                <p>Second season of the hormone raging tweens growing up in 2018. Absolutely hysterical, inappropriate, awkward, slightly offensive, and so very very true to life. This is one very funny show that everyone should watch.</p>
-                                <p><strong>10/16/2018</strong></p>
-                            </div>
-                            <div class="col-sm-12 col-lg-5">
-                                <div class="view overlay rounded z-depth-2">
-                                    <img src="assets/blog/2018-10-16-bigmouth.jpg" alt="Maniac" class="img-fluid lightbox">
-                                    <a>
-                                        <div class="mask rgba-white-slight"></div>
-                                    </a>
+                        <!-- Mental Model -->
+                        <div id="january" class="process-spacer-start">&nbsp;</div>
+                        <section>
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <div class="view overlay rounded z-depth-2 mb-lg-0 mb-1">
+                                        <img src="assets/blog/2018-09-terrifier.jpeg" alt="Terrifier Movie" class="img-fluid">
+                                    </div>
+                                    <figure class="figure">
+                                        <figcaption class="figure-caption">Netflix: Terrifier 2018</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="col-lg-7">
+                                    <h2 class="h2-responsive mb-2 font-weight-bold primary-light-text">Terrifier</h2>
+                                    <p class="subheading-hm black-text">A journalist named Monica interviews a severely disfigured woman on a news show, who is the lone survivor of a massacre that took place on Halloween night exactly a year ago. Monica mentions that the assailant, known only as “Art the Clown,” disappeared from the morgue, but the woman emphatically asserts that she saw him die. Later, Monica mocks the woman’s appearance while on the phone with her significant other in her dressing room. The disfigured woman, who had been eavesdropping on Monica's conversation, attacks her and gouges out her eyes, laughing maniacally ... and that's how it begins.  Must see for horror fans.</p>
                                 </div>
                             </div>
+                        </section>
+
+
+                        <!-- Personas  -->
+                        <div id="february" class="process-spacer">
+                            <hr/>
                         </div>
-                    </section>
-                    
-                    <hr class="my-5">
-                    
-                    <section class="blog">
-                        <div class="row">
-                            <div class="col-sm-12 col-lg-5">
-                                <div class="view overlay rounded z-depth-2 mb-4">
-                                    <img src="assets/blog/maniac2018.jpeg" alt="Maniac" class="img-fluid lightbox">
-                                    <a>
-                                        <div class="mask rgba-white-slight"></div>
-                                    </a>
+                        <section>
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <div id="personas" class="view overlay rounded z-depth-2 mb-lg-0 mb-1">
+                                        <a href="assets/process/2-SmashingMag-personas.jpg" data-lightbox="SmashingMag-personas.jpg" data-title="Photo credit: Smashing Magazine">
+                                            <img src="assets/process/2-SmashingMag-personas.jpg" alt="Sample image" class="img-fluid">
+                                        </a>
+                                    </div>
+                                    <figure class="figure">
+                                        <figcaption class="figure-caption">Photo credit: Smashing Magazine</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="col-lg-7">
+                                    <h2 class="h2-responsive mb-2 font-weight-bold primary-light-text">Personas</h2>
+                                    <p class="subheading-hm black-text">Summarize the research data from your mental model into personas. This will help your team keep the user’s motivations, frustrrations, and goals in mind when evaluate design solutions.</p>
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-lg-7">
-                                <a href="!#" class="pink-text">
-                                    <h6 class="mb-1 font-weight-bold"><i class="fa fa-television pr-1"></i>TV Shows</h6>
-                                </a>
-                                <h3 class="font-weight-bold primary-light-text mb-1"><strong><a href="https://www.netflix.com/title/80124522" target="_blank">Maniac</a></strong></h3>
-                                <p>Dark Comedy. Sci-fi. Totally Weird. This is somewhere in the realm of Naked Lunch, Brazil, the sci-fi parts of 12 Monkeys, a very subdued Bladerunner - anyway - so far it has been super cool. Check it out.</p>
-                                <p><strong>10/02/2018</strong></p>
-                            </div>
+                        </section>
+
+                        <!-- Customer Journey Map -->
+                        <div id="march" class="process-spacer">
+                            <hr/>
                         </div>
-                    </section>
-
-                    <hr class="my-5">
-
-                    <!-- September 2018 -->
-                    <div id="SEP" class="process-spacer">&nbsp;</div>
-                    <section class="blog">
-                        <div class="row">
-                            <div class="col-sm-12 col-lg-5">
-                                <div class="view overlay rounded z-depth-2">
-                                    <img src="assets/blog/2018-10-ozark.jpg" alt="Ozark" class="img-fluid lightbox">
-                                    <a>
-                                        <div class="mask rgba-white-slight"></div>
-                                    </a>
+                        <section>
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <div class="view overlay rounded z-depth-2 mb-lg-0 mb-1">
+                                        <a href="assets/process/3-Appcues-customerjourneymap.jpg" data-lightbox="3-Appcues-customerjourney.jpg" data-title="Photo credit: Appcues.com">
+                                            <img src="assets/process/3-Appcues-customerjourneymap.jpg" alt="Sample image" class="img-fluid">
+                                        </a>
+                                    </div>
+                                    <figure class="figure">
+                                        <figcaption class="figure-caption">Photo credit: Appcues.com</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="col-lg-7">
+                                    <h2 class="h2-responsive mb-2 font-weight-bold primary-light-text">Customer Journey Map</h2>
+                                    <p class="subheading-hm black-text">After you have identified who will be using your product, write down the business goals/desired outcome for each persona. You then go back and fill in how they will discover your product, learn what it is all about, and how they will start using it.</p>
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-lg-7">
-                                <a href="!#" class="pink-text">
-                                    <h6 class="mb-1 font-weight-bold"><i class="fa fa-television pr-1"></i>TV Shows</h6>
-                                </a>
-                                <h3 class="font-weight-bold primary-light-text mb-1"><strong><a href="https://www.netflix.com/title/80117552" target="_blank">Ozark Season 2</a></strong></h3>
-                                <p>Season 2. Brutal. The Byrdes continue down the rabbit hole, full speed, on their morally bankrupt path of destruction only to impress their employers, who, probably should have killed them in the first episode. I can see why this is being compared to Breaking Bad. Season 2 does not disappoint.</p>
-                                <p><strong>09/18/2018</strong></p>
-                            </div>
-                        </div>
-                    </section>
+                        </section>
 
-                    <hr class="my-5">
-
-                    <section class="blog">
-                        <div class="row">
-                            <div class="col-sm-12 col-lg-7">
-                                <a href="!#" class="pink-text">
-                                    <h6 class="mt-4 mb-1"><i class="fa fa-television pr-1"></i>TV Shows</h6>
-                                </a>
-                                <h3 class="font-weight-bold mb-1"><strong>Halt and Catch Fire</strong></h3>
-                                <p>So when I got my operation, I was hanging at the apartment (at the time) doing a whole lot of pain management and had heard of this show but didn't have enough interest to watch it. So I put on the mighty Netflix and let it rip. I adore this show. This is one of my favorite cast of characters, their interactions, the nostalgia of technology, the timeline, everything about this show is f*cking fantastic. This is going to be the last season and I can't tell you how bummed I am however, I know for a fact it is going to go out in spectacular fashion. I wish there were more shows like this that actually made you want to be in their world all the time. AMC, this show was a home run. THank you. Update: The show ended as expected. Gordon finally dies and Joe and Cam never got it together. It really echoed real life as much as I can think of and it was great. It leaves you as it was supposed to ... life moves on.</p>
-                            </div>
-
-                            <div class="col-sm-12 col-lg-5">
-                                <div class="view overlay rounded z-depth-2 mb-lg-0 my-4">
-                                    <img src="assets/blog/haltandcatchfire.jpg" alt="" class="img-fluid">
-                                    <a>
-                                        <div class="mask rgba-white-slight"></div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-
-                    <!-- August 2018 -->
-                    <div id="AUG" class="process-spacer">
-                        <hr />
-                    </div>
-                    <section class="blog">
-                        <div class="row">
-                            <div class="col-sm-12 col-lg-5">
-                                <div class="view overlay rounded z-depth-2">
-                                    <img src="assets/blog/ozark-netflix.jpg" alt="" class="img-fluid lightbox">
-                                    <a>
-                                        <div class="mask rgba-white-slight"></div>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-12 col-lg-7">
-                                <a href="!#" class="pink-text">
-                                    <h6 class="mb-1 font-weight-bold"><i class="fa fa-television pr-1"></i>TV Shows</h6>
-                                </a>
-                                <h3 class="font-weight-bold mb-1"><strong><a href="https://www.netflix.com/title/80117552" target="_blank">Ozark Season 2</a></strong></h3>
-                                <p>Season 2. Brutal. The Byrdes continue down the rabbit hole, full speed, on their morally bankrupt path of destruction only to impress their employers, who, probably should have killed them in the first episode. I can see why this is being compared to Breaking Bad. Season 2 does not disappoint.</p>
-                                <p><strong>09/18/2018</strong></p>
-                            </div>
-                        </div>
-                    </section>
-
-                    <hr class="my-5">
-
-                    <section class="blog">
-                        <div class="row">
-                            <div class="col-sm-12 col-lg-7">
-                                <a href="!#" class="pink-text">
-                                    <h6 class="mt-4 mb-1"><i class="fa fa-television pr-1"></i>TV Shows</h6>
-                                </a>
-                                <h3 class="font-weight-bold mb-1"><strong>Halt and Catch Fire</strong></h3>
-                                <p>So when I got my operation, I was hanging at the apartment (at the time) doing a whole lot of pain management and had heard of this show but didn't have enough interest to watch it. So I put on the mighty Netflix and let it rip. I adore this show. This is one of my favorite cast of characters, their interactions, the nostalgia of technology, the timeline, everything about this show is f*cking fantastic. This is going to be the last season and I can't tell you how bummed I am however, I know for a fact it is going to go out in spectacular fashion. I wish there were more shows like this that actually made you want to be in their world all the time. AMC, this show was a home run. THank you. Update: The show ended as expected. Gordon finally dies and Joe and Cam never got it together. It really echoed real life as much as I can think of and it was great. It leaves you as it was supposed to ... life moves on.</p>
-                            </div>
-
-                            <div class="col-sm-12 col-lg-5">
-                                <div class="view overlay rounded z-depth-2 mb-lg-0 my-4">
-                                    <img src="assets/blog/haltandcatchfire.jpg" alt="" class="img-fluid">
-                                    <a>
-                                        <div class="mask rgba-white-slight"></div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    <div class="process-spacer">&nbsp;</div>
+                        <div class="process-spacer">&nbsp;</div>
 
                 </div>
 
 
-                <!-- Scroll Spy -->
-                <div class="col-sm-12 col-md-3 col-lg-3">
 
-                    <div id="myScrollspy" class="sticky">
+                <!-- Scroll Spy -->
+                <div class="col-sm-12 col-md-12 col-lg-3">
+
+                    <div id="myScrollspy" class="sticky-top">
                         <ul id="scrollspy-list" class="nav nav-pills default-pills smooth-scroll">
                             <li class="nav-item">
-                                <a id="startPosition" href="#OCT" class="nav-link active">October 2018</a>
+                                <a id="startPosition" href="#january" class="nav-link active">January</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#SEP" class="nav-link">September 2018</a>
+                                <a href="#february" class="nav-link">February</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#AUG" class="nav-link">August 2018</a>
+                                <a href="#march" class="nav-link">March</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#JUL" class="nav-link">July 2018</a>
+                                <a href="#april" class="nav-link">April</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#JUN" class="nav-link">June 2018</a>
+                                <a href="#may" class="nav-link">May</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#MAY" class="nav-link">May 2018</a>
+                                <a href="#june" class="nav-link">June</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#APR" class="nav-link">April 2018</a>
+                                <a href="#july" class="nav-link">July</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#MAR" class="nav-link">March 2018</a>
+                                <a href="#august" class="nav-link">August</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#FEB" class="nav-link">February 2018</a>
+                                <a href="#september" class="nav-link">September</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#JAN" class="nav-link">January 2018</a>
+                                <a href="#october" class="nav-link">October</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#2017" class="nav-link">2017</a>
+                                <a href="#november" class="nav-link">November</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#2016" class="nav-link">2016</a>
+                                <a href="#december" class="nav-link">December</a>
                             </li>
                         </ul>
                     </div>
 
                 </div>
+
             </div>
-
-
-
         </div>
-
     </main>
 
+	<!--
+	<div class="cd-cover-layer"></div>
+	<div class="cd-loading-bar"></div>
+  	-->
+   
     <!-- Compiled and minified JavaScript -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/mdb.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
     <script src="js/scripts.js"></script>
+    <!--<script src='js/effects.js'></script>-->
 </body>
 
 </html>

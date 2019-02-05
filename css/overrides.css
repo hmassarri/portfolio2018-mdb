@@ -492,6 +492,9 @@ nav a {
 .double-nav .button-collapse {
   left: 0; }
 
+#slide-out .fa {
+  margin-right: 10px; }
+
 #myScrollspy {
   margin-left: 35px; }
   #myScrollspy .nav-item {
@@ -520,6 +523,9 @@ nav a {
 
 .process-spacer {
   padding: 70px 0; }
+
+.sticky-top {
+  top: 168px; }
 
 #ux {
   background-color: #FFFFFF; }
