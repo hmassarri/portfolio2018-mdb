@@ -122,6 +122,9 @@ nav a {
 	left: 0;
 }
 
+#slide-out .fa {
+    margin-right: 10px;
+}
 
 // 4 =Scrollspy
 // ==============================
@@ -166,7 +169,9 @@ nav a {
 	padding: 70px 0;
 }
 
-
+.sticky-top {
+    top: 168px;
+}
 
 // 5 =portfolioUX
 // ==============================
