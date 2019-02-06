@@ -59,7 +59,7 @@ $(document).ready(function() {
     
     function uxStepper() {
         setTimeout(function () {
-            $('#horizontal-stepper-fix').nextStep();
+            $('#horizontal-stepper').nextStep();
         }, 2000);
     }
     
