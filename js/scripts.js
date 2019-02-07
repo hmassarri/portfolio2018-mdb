@@ -50,6 +50,11 @@ $(document).ready(function() {
             //$('.side-nav').removeClass('pink accent-2').addClass('white');
         }
 
+		
+	//Animation
+	
+		
+		
     });
     
     
@@ -59,7 +64,7 @@ $(document).ready(function() {
     
     function uxStepper() {
         setTimeout(function () {
-            $('#horizontal-stepper').nextStep();
+            $('#horizontal-stepper-fix').nextStep();
         }, 2000);
     }
     
